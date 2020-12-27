@@ -72,8 +72,9 @@ typings/
 .env
 .env.test
 
-# environment script
+# environment scripts
 set_env.sh
+set_env.ps1
 # parcel-bundler cache (https://parceljs.org/)
 .cache
 

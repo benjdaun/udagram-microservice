@@ -19,7 +19,7 @@
         "sourceType": "module"
     },
     "plugins": [
-        "@typescript-eslint/eslint-plugin"
+        "@typescript-eslint"
     ],
     "rules": {
     }

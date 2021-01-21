@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    service: udagram-frontend
+  name: udagram-frontend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: udagram-frontend
+  template:
+    metadata:
+      labels:
+        service: udagram-frontend
+        app: udagram-frontend
+        api: external
+    spec:
+      containers:
+      - name: udagram-frontend
+        # Run this image
+        image: benjdaun3k900/udagram-frontend
+        imagePullPolicy: Always
+        ports:
+          - containerPort: 80
+        envFrom:
+        - secretRef:
+            name: env-secret

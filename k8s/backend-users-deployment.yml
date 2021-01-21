@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    service: udagram-backend-users
+  name: udagram-backend-users
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: udagram-backend-users
+  template:
+    metadata:
+      labels:
+        service: udagram-backend-users
+        app: udagram-backend-users
+    spec:
+      containers:
+      - name: udagram-backend-users
+        # Run this image
+        image: benjdaun3k900/udagram-api-users
+        imagePullPolicy: Always
+        envFrom:
+        - secretRef:
+            name: env-secret

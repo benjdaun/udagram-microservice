@@ -1,0 +1,3074 @@
+travis_fold:start:worker_info
+[0K[33;1mWorker information[0m
+hostname: c9b7b38d-c0c4-4b2d-8e85-38fb851b0e3f@1.worker-com-oss-56c8fb7c6b-lglqj.gce-production-3
+version: v6.2.21 https://github.com/travis-ci/worker/tree/cd59585215f5a19c00baad33031b8ed10144ad72
+instance: travis-job-038b160a-84a9-45a8-896f-2c29fbaedb47 travis-ci-sardonyx-xenial-1593004276-4d46c6b3 (via amqp)
+startup: 6.075275903s
+travis_fold:end:worker_info
+[0Ktravis_time:start:0ac1ad96
+[0Ktravis_time:end:0ac1ad96:start=1612370690020357209,finish=1612370690157887057,duration=137529848,event=no_world_writable_dirs
+[0Ktravis_time:start:00bc56b1
+[0Ktravis_time:end:00bc56b1:start=1612370690161084508,finish=1612370690168229152,duration=7144644,event=agent
+[0Ktravis_time:start:26b41780
+[0Ktravis_time:end:26b41780:start=1612370690170957392,finish=1612370690172949482,duration=1992090,event=check_unsupported
+[0Ktravis_time:start:006467f7
+[0Ktravis_fold:start:system_info
+[0K[33;1mBuild system information[0m
+Build language: node_js
+Build dist: xenial
+Build id: 215942338
+Job id: 480046801
+Runtime kernel version: 4.15.0-1077-gcp
+travis-build version: 091d532a
+[34m[1mBuild image provisioning date and time[0m
+Wed Jun 24 13:36:52 UTC 2020
+[34m[1mOperating System Details[0m
+Distributor ID:	Ubuntu
+Description:	Ubuntu 16.04.6 LTS
+Release:	16.04
+Codename:	xenial
+[34m[1mSystemd Version[0m
+systemd 229
+[34m[1mCookbooks Version[0m
+3f92a99 https://github.com/travis-ci/travis-cookbooks/tree/3f92a99
+[34m[1mgit version[0m
+git version 2.27.0
+[34m[1mbash version[0m
+GNU bash, version 4.3.48(1)-release (x86_64-pc-linux-gnu)
+[34m[1mgcc version[0m
+gcc (Ubuntu 5.4.0-6ubuntu1~16.04.12) 5.4.0 20160609
+[34m[1mdocker version[0m
+Client:
+ Version:           18.06.0-ce
+ API version:       1.38
+ Go version:        go1.10.3
+ Git commit:        0ffa825
+ Built:             Wed Jul 18 19:11:02 2018
+ OS/Arch:           linux/amd64
+ Experimental:      false
+
+Server:
+ Engine:
+  Version:          18.06.0-ce
+  API version:      1.38 (minimum version 1.12)
+  Go version:       go1.10.3
+  Git commit:       0ffa825
+  Built:            Wed Jul 18 19:09:05 2018
+  OS/Arch:          linux/amd64
+  Experimental:     false
+[34m[1mclang version[0m
+clang version 7.0.0 (tags/RELEASE_700/final)
+[34m[1mjq version[0m
+jq-1.5
+[34m[1mbats version[0m
+Bats 0.4.0
+[34m[1mshellcheck version[0m
+0.7.0
+[34m[1mshfmt version[0m
+v2.6.3
+[34m[1mccache version[0m
+3.2.4
+[34m[1mcmake version[0m
+cmake version 3.12.4
+[34m[1mheroku version[0m
+heroku/7.42.1 linux-x64 node-v12.16.2
+[34m[1mimagemagick version[0m
+Version: ImageMagick 6.8.9-9 Q16 x86_64 2019-11-12 http://www.imagemagick.org
+[34m[1mmd5deep version[0m
+4.4
+[34m[1mmercurial version[0m
+version 4.8
+[34m[1mmysql version[0m
+mysql  Ver 14.14 Distrib 5.7.30, for Linux (x86_64) using  EditLine wrapper
+[34m[1mopenssl version[0m
+OpenSSL 1.0.2g  1 Mar 2016
+[34m[1mpacker version[0m
+1.3.3
+[34m[1mpostgresql client version[0m
+psql (PostgreSQL) 10.13 (Ubuntu 10.13-1.pgdg16.04+1)
+[34m[1mragel version[0m
+Ragel State Machine Compiler version 6.8 Feb 2013
+[34m[1msudo version[0m
+1.8.16
+[34m[1mgzip version[0m
+gzip 1.6
+[34m[1mzip version[0m
+Zip 3.0
+[34m[1mvim version[0m
+VIM - Vi IMproved 7.4 (2013 Aug 10, compiled Mar 18 2020 14:06:17)
+[34m[1miptables version[0m
+iptables v1.6.0
+[34m[1mcurl version[0m
+curl 7.47.0 (x86_64-pc-linux-gnu) libcurl/7.47.0 GnuTLS/3.4.10 zlib/1.2.8 libidn/1.32 librtmp/2.3
+[34m[1mwget version[0m
+GNU Wget 1.17.1 built on linux-gnu.
+[34m[1mrsync version[0m
+rsync  version 3.1.1  protocol version 31
+[34m[1mgimme version[0m
+v1.5.4
+[34m[1mnvm version[0m
+0.35.3
+[34m[1mperlbrew version[0m
+/home/travis/perl5/perlbrew/bin/perlbrew  - App::perlbrew/0.88
+[34m[1mphpenv version[0m
+rbenv 1.1.2-30-gc879cb0
+[34m[1mrvm version[0m
+rvm 1.29.10 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io]
+[34m[1mdefault ruby version[0m
+ruby 2.5.3p105 (2018-10-18 revision 65156) [x86_64-linux]
+[34m[1mCouchDB version[0m
+couchdb 1.6.1
+[34m[1mElasticSearch version[0m
+5.5.0
+[34m[1mInstalled Firefox version[0m
+firefox 63.0.1
+[34m[1mMongoDB version[0m
+MongoDB 4.0.19
+[34m[1mPhantomJS version[0m
+2.1.1
+[34m[1mPre-installed PostgreSQL versions[0m
+9.4.26
+9.5.22
+9.6.18
+[34m[1mRedis version[0m
+redis-server 6.0.5
+[34m[1mPre-installed Go versions[0m
+1.11.1
+[34m[1mant version[0m
+Apache Ant(TM) version 1.9.6 compiled on July 20 2018
+[34m[1mmvn version[0m
+Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+[34m[1mgradle version[0m
+Gradle 5.1.1!
+[34m[1mlein version[0m
+Leiningen 2.9.3 on Java 11.0.2 OpenJDK 64-Bit Server VM
+[34m[1mPre-installed Node.js versions[0m
+v10.21.0
+v11.0.0
+v12.18.1
+v4.9.1
+v6.17.1
+v8.12.0
+v8.17.0
+v8.9
+[34m[1mphpenv versions[0m
+  system
+  5.6
+  5.6.40
+  7.1
+  7.1.27
+  7.2
+* 7.2.15 (set by /home/travis/.phpenv/version)
+  hhvm
+  hhvm-stable
+[34m[1mcomposer --version[0m
+Composer version 1.8.4 2019-02-11 10:52:10
+[34m[1mPre-installed Ruby versions[0m
+ruby-2.3.8
+ruby-2.4.5
+ruby-2.5.3
+travis_fold:end:system_info
+[0K
+travis_time:end:006467f7:start=1612370690175929307,finish=1612370690181378567,duration=5449260,event=show_system_info
+[0Ktravis_time:start:2d70f431
+[0Ktravis_time:end:2d70f431:start=1612370690184333995,finish=1612370690196847124,duration=12513129,event=rm_riak_source
+[0Ktravis_time:start:0b880ed9
+[0Ktravis_time:end:0b880ed9:start=1612370690199931096,finish=1612370690205065617,duration=5134521,event=fix_rwky_redis
+[0Ktravis_time:start:0c916590
+[0Ktravis_time:end:0c916590:start=1612370690208284470,finish=1612370690859713653,duration=651429183,event=wait_for_network
+[0Ktravis_time:start:227be356
+[0Ktravis_time:end:227be356:start=1612370690862421833,finish=1612370691061515060,duration=199093227,event=update_apt_keys
+[0Ktravis_time:start:0ee52cbd
+[0Ktravis_time:end:0ee52cbd:start=1612370691064427447,finish=1612370691112014697,duration=47587250,event=fix_hhvm_source
+[0Ktravis_time:start:0316d9ad
+[0Ktravis_time:end:0316d9ad:start=1612370691114629461,finish=1612370691116953999,duration=2324538,event=update_mongo_arch
+[0Ktravis_time:start:0ca44840
+[0Ktravis_time:end:0ca44840:start=1612370691119496309,finish=1612370691156091856,duration=36595547,event=fix_sudo_enabled_trusty
+[0Ktravis_time:start:1305d2c3
+[0Ktravis_time:end:1305d2c3:start=1612370691158701555,finish=1612370691160620942,duration=1919387,event=update_glibc
+[0Ktravis_time:start:02aa137c
+[0Ktravis_time:end:02aa137c:start=1612370691163282853,finish=1612370691170518300,duration=7235447,event=clean_up_path
+[0Ktravis_time:start:1b9c7f50
+[0Ktravis_time:end:1b9c7f50:start=1612370691173161583,finish=1612370691180240976,duration=7079393,event=fix_resolv_conf
+[0Ktravis_time:start:0000a02a
+[0Ktravis_time:end:0000a02a:start=1612370691182884331,finish=1612370691190747064,duration=7862733,event=fix_etc_hosts
+[0Ktravis_time:start:0050a0af
+[0Ktravis_time:end:0050a0af:start=1612370691193279450,finish=1612370691203004840,duration=9725390,event=fix_mvn_settings_xml
+[0Ktravis_time:start:15c47158
+[0Ktravis_time:end:15c47158:start=1612370691205671421,finish=1612370691214444649,duration=8773228,event=no_ipv6_localhost
+[0Ktravis_time:start:36edf4dc
+[0Ktravis_time:end:36edf4dc:start=1612370691217111492,finish=1612370691219111415,duration=1999923,event=fix_etc_mavenrc
+[0Ktravis_time:start:05150e9b
+[0Ktravis_time:end:05150e9b:start=1612370691221765006,finish=1612370691224502862,duration=2737856,event=fix_wwdr_certificate
+[0Ktravis_time:start:022be764
+[0Ktravis_time:end:022be764:start=1612370691227107917,finish=1612370691248133046,duration=21025129,event=put_localhost_first
+[0Ktravis_time:start:10cff8fa
+[0Ktravis_time:end:10cff8fa:start=1612370691250686949,finish=1612370691253377410,duration=2690461,event=home_paths
+[0Ktravis_time:start:0131a3ac
+[0Ktravis_time:end:0131a3ac:start=1612370691255966515,finish=1612370691266550223,duration=10583708,event=disable_initramfs
+[0Ktravis_time:start:3b21e05c
+[0Ktravis_time:end:3b21e05c:start=1612370691269212676,finish=1612370691533134942,duration=263922266,event=disable_ssh_roaming
+[0Ktravis_time:start:10e0b9c8
+[0Ktravis_time:end:10e0b9c8:start=1612370691536208006,finish=1612370691538330009,duration=2122003,event=debug_tools
+[0Ktravis_time:start:0eb450ad
+[0Ktravis_time:end:0eb450ad:start=1612370691541018653,finish=1612370691543887288,duration=2868635,event=uninstall_oclint
+[0Ktravis_time:start:2c76e550
+[0Ktravis_time:end:2c76e550:start=1612370691546602788,finish=1612370691549318997,duration=2716209,event=rvm_use
+[0Ktravis_time:start:075bc800
+[0Ktravis_time:end:075bc800:start=1612370691551937588,finish=1612370691558902529,duration=6964941,event=rm_etc_boto_cfg
+[0Ktravis_time:start:197e8861
+[0Ktravis_time:end:197e8861:start=1612370691561515751,finish=1612370691564544695,duration=3028944,event=rm_oraclejdk8_symlink
+[0Ktravis_time:start:0ed194e0
+[0Ktravis_time:end:0ed194e0:start=1612370691567134408,finish=1612370691655117830,duration=87983422,event=enable_i386
+[0Ktravis_time:start:05412e26
+[0Ktravis_time:end:05412e26:start=1612370691657915710,finish=1612370691662941077,duration=5025367,event=update_rubygems
+[0Ktravis_time:start:048f0f18
+[0Ktravis_time:end:048f0f18:start=1612370691665518645,finish=1612370692413375500,duration=747856855,event=ensure_path_components
+[0Ktravis_time:start:06e6ed6d
+[0Ktravis_time:end:06e6ed6d:start=1612370692416434204,finish=1612370692418336247,duration=1902043,event=redefine_curl
+[0Ktravis_time:start:09d9a409
+[0Ktravis_time:end:09d9a409:start=1612370692420959274,finish=1612370692422879188,duration=1919914,event=nonblock_pipe
+[0Ktravis_time:start:10110506
+[0Ktravis_time:end:10110506:start=1612370692425611940,finish=1612370698457838202,duration=6032226262,event=apt_get_update
+[0Ktravis_time:start:0dce3324
+[0Ktravis_time:end:0dce3324:start=1612370698461084762,finish=1612370698463151222,duration=2066460,event=deprecate_xcode_64
+[0Ktravis_time:start:0701741a
+[0Ktravis_time:end:0701741a:start=1612370698466040158,finish=1612370701057476961,duration=2591436803,event=update_heroku
+[0Ktravis_time:start:0a6b4892
+[0Ktravis_time:end:0a6b4892:start=1612370701060720429,finish=1612370701062819446,duration=2099017,event=shell_session_update
+[0Ktravis_time:start:016d6f9a
+[0Ktravis_fold:start:docker_mtu_and_registry_mirrors
+[0Ktravis_fold:end:docker_mtu_and_registry_mirrors
+[0Ktravis_time:end:016d6f9a:start=1612370701065537746,finish=1612370703646344729,duration=2580806983,event=set_docker_mtu_and_registry_mirrors
+[0Ktravis_time:start:01a696fc
+[0Ktravis_fold:start:resolvconf
+[0Ktravis_fold:end:resolvconf
+[0Ktravis_time:end:01a696fc:start=1612370703649441355,finish=1612370703712303348,duration=62861993,event=resolvconf
+[0Ktravis_time:start:0c9fb850
+[0Ktravis_time:end:0c9fb850:start=1612370703717143417,finish=1612370703840172243,duration=123028826,event=maven_central_mirror
+[0Ktravis_time:start:0b7922ee
+[0Ktravis_time:end:0b7922ee:start=1612370703843144521,finish=1612370703928426660,duration=85282139,event=maven_https
+[0Ktravis_time:start:0497a988
+[0Ktravis_fold:start:services
+[0Ktravis_time:start:0aac8581
+[0K$ sudo systemctl start docker
+travis_time:end:0aac8581:start=1612370703934847325,finish=1612370703945133705,duration=10286380,event=prepare
+[0Ktravis_fold:end:services
+[0Ktravis_time:end:0aac8581:start=1612370703934847325,finish=1612370706949116559,duration=3014269234,event=services
+[0Ktravis_time:start:0f24ab61
+[0Ktravis_time:end:0f24ab61:start=1612370706952271079,finish=1612370706954343592,duration=2072513,event=fix_ps4
+[0Ktravis_time:start:02a414e0
+[0Ktravis_fold:start:ssh_key
+[0KInstalling SSH key from: default repository key
+Key fingerprint: 3c:3c:a9:25:fd:c7:fe:e7:58:3e:7e:4f:1c:40:41:8a
+travis_fold:end:ssh_key
+[0KUsing /home/travis/.netrc to clone repository.
+
+travis_fold:start:git.checkout
+[0Ktravis_time:start:0db337f4
+[0K$ git clone --depth=50 --branch=main https://github.com/benjdaun/udagram-microservice.git benjdaun/udagram-microservice
+Cloning into 'benjdaun/udagram-microservice'...
+remote: Enumerating objects: 254, done.[K
+remote: Counting objects:   0% (1/254)[K
+remote: Counting objects:   1% (3/254)[K
+remote: Counting objects:   2% (6/254)[K
+remote: Counting objects:   3% (8/254)[K
+remote: Counting objects:   4% (11/254)[K
+remote: Counting objects:   5% (13/254)[K
+remote: Counting objects:   6% (16/254)[K
+remote: Counting objects:   7% (18/254)[K
+remote: Counting objects:   8% (21/254)[K
+remote: Counting objects:   9% (23/254)[K
+remote: Counting objects:  10% (26/254)[K
+remote: Counting objects:  11% (28/254)[K
+remote: Counting objects:  12% (31/254)[K
+remote: Counting objects:  13% (34/254)[K
+remote: Counting objects:  14% (36/254)[K
+remote: Counting objects:  15% (39/254)[K
+remote: Counting objects:  16% (41/254)[K
+remote: Counting objects:  17% (44/254)[K
+remote: Counting objects:  18% (46/254)[K
+remote: Counting objects:  19% (49/254)[K
+remote: Counting objects:  20% (51/254)[K
+remote: Counting objects:  21% (54/254)[K
+remote: Counting objects:  22% (56/254)[K
+remote: Counting objects:  23% (59/254)[K
+remote: Counting objects:  24% (61/254)[K
+remote: Counting objects:  25% (64/254)[K
+remote: Counting objects:  26% (67/254)[K
+remote: Counting objects:  27% (69/254)[K
+remote: Counting objects:  28% (72/254)[K
+remote: Counting objects:  29% (74/254)[K
+remote: Counting objects:  30% (77/254)[K
+remote: Counting objects:  31% (79/254)[K
+remote: Counting objects:  32% (82/254)[K
+remote: Counting objects:  33% (84/254)[K
+remote: Counting objects:  34% (87/254)[K
+remote: Counting objects:  35% (89/254)[K
+remote: Counting objects:  36% (92/254)[K
+remote: Counting objects:  37% (94/254)[K
+remote: Counting objects:  38% (97/254)[K
+remote: Counting objects:  39% (100/254)[K
+remote: Counting objects:  40% (102/254)[K
+remote: Counting objects:  41% (105/254)[K
+remote: Counting objects:  42% (107/254)[K
+remote: Counting objects:  43% (110/254)[K
+remote: Counting objects:  44% (112/254)[K
+remote: Counting objects:  45% (115/254)[K
+remote: Counting objects:  46% (117/254)[K
+remote: Counting objects:  47% (120/254)[K
+remote: Counting objects:  48% (122/254)[K
+remote: Counting objects:  49% (125/254)[K
+remote: Counting objects:  50% (127/254)[K
+remote: Counting objects:  51% (130/254)[K
+remote: Counting objects:  52% (133/254)[K
+remote: Counting objects:  53% (135/254)[K
+remote: Counting objects:  54% (138/254)[K
+remote: Counting objects:  55% (140/254)[K
+remote: Counting objects:  56% (143/254)[K
+remote: Counting objects:  57% (145/254)[K
+remote: Counting objects:  58% (148/254)[K
+remote: Counting objects:  59% (150/254)[K
+remote: Counting objects:  60% (153/254)[K
+remote: Counting objects:  61% (155/254)[K
+remote: Counting objects:  62% (158/254)[K
+remote: Counting objects:  63% (161/254)[K
+remote: Counting objects:  64% (163/254)[K
+remote: Counting objects:  65% (166/254)[K
+remote: Counting objects:  66% (168/254)[K
+remote: Counting objects:  67% (171/254)[K
+remote: Counting objects:  68% (173/254)[K
+remote: Counting objects:  69% (176/254)[K
+remote: Counting objects:  70% (178/254)[K
+remote: Counting objects:  71% (181/254)
+remote: Counting objects:  72% (183/254)[K
+remote: Counting objects:  73% (186/254)[K
+remote: Counting objects:  74% (188/254)[K
+remote: Counting objects:  75% (191/254)[K
+remote: Counting objects:  76% (194/254)[K
+remote: Counting objects:  77% (196/254)[K
+remote: Counting objects:  78% (199/254)[K
+remote: Counting objects:  79% (201/254)[K
+remote: Counting objects:  80% (204/254)[K
+remote: Counting objects:  81% (206/254)[K
+remote: Counting objects:  82% (209/254)[K
+remote: Counting objects:  83% (211/254)[K
+remote: Counting objects:  84% (214/254)[K
+remote: Counting objects:  85% (216/254)[K
+remote: Counting objects:  86% (219/254)[K
+remote: Counting objects:  87% (221/254)[K
+remote: Counting objects:  88% (224/254)[K
+remote: Counting objects:  89% (227/254)[K
+remote: Counting objects:  90% (229/254)[K
+remote: Counting objects:  91% (232/254)[K
+remote: Counting objects:  92% (234/254)[K
+remote: Counting objects:  93% (237/254)[K
+remote: Counting objects:  94% (239/254)[K
+remote: Counting objects:  95% (242/254)[K
+remote: Counting objects:  96% (244/254)[K
+remote: Counting objects:  97% (247/254)[K
+remote: Counting objects:  98% (249/254)[K
+remote: Counting objects:  99% (252/254)[K
+remote: Counting objects: 100% (254/254)[K
+remote: Counting objects: 100% (254/254), done.[K
+remote: Compressing objects:   0% (1/180)[K
+remote: Compressing objects:   1% (2/180)[K
+remote: Compressing objects:   2% (4/180)[K
+remote: Compressing objects:   3% (6/180)[K
+remote: Compressing objects:   4% (8/180)[K
+remote: Compressing objects:   5% (9/180)[K
+remote: Compressing objects:   6% (11/180)[K
+remote: Compressing objects:   7% (13/180)[K
+remote: Compressing objects:   8% (15/180)[K
+remote: Compressing objects:   9% (17/180)[K
+remote: Compressing objects:  10% (18/180)[K
+remote: Compressing objects:  11% (20/180)[K
+remote: Compressing objects:  12% (22/180)[K
+remote: Compressing objects:  13% (24/180)[K
+remote: Compressing objects:  14% (26/180)[K
+remote: Compressing objects:  15% (27/180)[K
+remote: Compressing objects:  16% (29/180)[K
+remote: Compressing objects:  17% (31/180)[K
+remote: Compressing objects:  18% (33/180)[K
+remote: Compressing objects:  19% (35/180)[K
+remote: Compressing objects:  20% (36/180)[K
+remote: Compressing objects:  21% (38/180)[K
+remote: Compressing objects:  22% (40/180)[K
+remote: Compressing objects:  23% (42/180)[K
+remote: Compressing objects:  24% (44/180)[K
+remote: Compressing objects:  25% (45/180)[K
+remote: Compressing objects:  26% (47/180)[K
+remote: Compressing objects:  27% (49/180)[K
+remote: Compressing objects:  28% (51/180)[K
+remote: Compressing objects:  29% (53/180)[K
+remote: Compressing objects:  30% (54/180)[K
+remote: Compressing objects:  31% (56/180)[K
+remote: Compressing objects:  32% (58/180)[K
+remote: Compressing objects:  33% (60/180)[K
+remote: Compressing objects:  34% (62/180)[K
+remote: Compressing objects:  35% (63/180)[K
+remote: Compressing objects:  36% (65/180)[K
+remote: Compressing objects:  37% (67/180)[K
+remote: Compressing objects:  38% (69/180)[K
+remote: Compressing objects:  39% (71/180)[K
+remote: Compressing objects:  40% (72/180)[K
+remote: Compressing objects:  41% (74/180)[K
+remote: Compressing objects:  42% (76/180)[K
+remote: Compressing objects:  43% (78/180)[K
+remote: Compressing objects:  44% (80/180)[K
+remote: Compressing objects:  45% (81/180)[K
+remote: Compressing objects:  46% (83/180)[K
+remote: Compressing objects:  47% (85/180)[K
+remote: Compressing objects:  48% (87/180)[K
+remote: Compressing objects:  49% (89/180)[K
+remote: Compressing objects:  50% (90/180)[K
+remote: Compressing objects:  51% (92/180)[K
+remote: Compressing objects:  52% (94/180)[K
+remote: Compressing objects:  53% (96/180)[K
+remote: Compressing objects:  54% (98/180)[K
+remote: Compressing objects:  55% (99/180)[K
+remote: Compressing objects:  56% (101/180)[K
+remote: Compressing objects:  57% (103/180)[K
+remote: Compressing objects:  58% (105/180)[K
+remote: Compressing objects:  59% (107/180)[K
+remote: Compressing objects:  60% (108/180)[K
+remote: Compressing objects:  61% (110/180)[K
+remote: Compressing objects:  62% (112/180)[K
+remote: Compressing objects:  63% (114/180)[K
+remote: Compressing objects:  64% (116/180)[K
+remote: Compressing objects:  65% (117/180)[K
+remote: Compressing objects:  66% (119/180)[K
+remote: Compressing objects:  67% (121/180)[K
+remote: Compressing objects:  68% (123/180)[K
+remote: Compressing objects:  69% (125/180)[K
+remote: Compressing objects:  70% (126/180)[K
+remote: Compressing objects:  71% (128/180)[K
+remote: Compressing objects:  72% (130/180)[K
+remote: Compressing objects:  73% (132/180)[K
+remote: Compressing objects:  74% (134/180)[K
+remote: Compressing objects:  75% (135/180)[K
+remote: Compressing objects:  76% (137/180)[K
+remote: Compressing objects:  77% (139/180)[K
+remote: Compressing objects:  78% (141/180)[K
+remote: Compressing objects:  79% (143/180)[K
+remote: Compressing objects:  80% (144/180)[K
+remote: Compressing objects:  81% (146/180)[K
+remote: Compressing objects:  82% (148/180)[K
+remote: Compressing objects:  83% (150/180)[K
+remote: Compressing objects:  84% (152/180)[K
+remote: Compressing objects:  85% (153/180)[K
+remote: Compressing objects:  86% (155/180)[K
+remote: Compressing objects:  87% (157/180)[K
+remote: Compressing objects:  88% (159/180)[K
+remote: Compressing objects:  89% (161/180)[K
+remote: Compressing objects:  90% (162/180)[K
+remote: Compressing objects:  91% (164/180)[K
+remote: Compressing objects:  92% (166/180)[K
+remote: Compressing objects:  93% (168/180)[K
+remote: Compressing objects:  94% (170/180)[K
+remote: Compressing objects:  95% (171/180)[K
+remote: Compressing objects:  96% (173/180)[K
+remote: Compressing objects:  97% (175/180)[K
+remote: Compressing objects:  98% (177/180)[K
+remote: Compressing objects:  99% (179/180)[K
+remote: Compressing objects: 100% (180/180)[K
+remote: Compressing objects: 100% (180/180), done.[K
+Receiving objects:   0% (1/254)
+Receiving objects:   1% (3/254)
+Receiving objects:   2% (6/254)
+Receiving objects:   3% (8/254)
+Receiving objects:   4% (11/254)
+Receiving objects:   5% (13/254)
+Receiving objects:   6% (16/254)
+Receiving objects:   7% (18/254)
+Receiving objects:   8% (21/254)
+Receiving objects:   9% (23/254)
+Receiving objects:  10% (26/254)
+Receiving objects:  11% (28/254)
+Receiving objects:  12% (31/254)
+Receiving objects:  13% (34/254)
+Receiving objects:  14% (36/254)
+Receiving objects:  15% (39/254)
+Receiving objects:  16% (41/254)
+Receiving objects:  17% (44/254)
+Receiving objects:  18% (46/254)
+Receiving objects:  19% (49/254)
+Receiving objects:  20% (51/254)
+Receiving objects:  21% (54/254)
+Receiving objects:  22% (56/254)
+Receiving objects:  23% (59/254)
+Receiving objects:  24% (61/254)
+Receiving objects:  25% (64/254)
+Receiving objects:  26% (67/254)
+Receiving objects:  27% (69/254)
+Receiving objects:  28% (72/254)
+Receiving objects:  29% (74/254)
+Receiving objects:  30% (77/254)
+Receiving objects:  31% (79/254)
+Receiving objects:  32% (82/254)
+Receiving objects:  33% (84/254)
+Receiving objects:  34% (87/254)
+Receiving objects:  35% (89/254)
+Receiving objects:  36% (92/254)
+Receiving objects:  37% (94/254)
+Receiving objects:  38% (97/254)
+Receiving objects:  39% (100/254)
+Receiving objects:  40% (102/254)
+Receiving objects:  41% (105/254)
+Receiving objects:  42% (107/254)
+Receiving objects:  43% (110/254)
+Receiving objects:  44% (112/254)
+Receiving objects:  45% (115/254)
+Receiving objects:  46% (117/254)
+Receiving objects:  47% (120/254)
+Receiving objects:  48% (122/254)
+Receiving objects:  49% (125/254)
+Receiving objects:  50% (127/254)
+Receiving objects:  51% (130/254)
+Receiving objects:  52% (133/254)
+Receiving objects:  53% (135/254)
+Receiving objects:  54% (138/254)
+Receiving objects:  55% (140/254)
+Receiving objects:  56% (143/254)
+Receiving objects:  57% (145/254)
+Receiving objects:  58% (148/254)
+Receiving objects:  59% (150/254)
+Receiving objects:  60% (153/254)
+Receiving objects:  61% (155/254)
+Receiving objects:  62% (158/254)
+Receiving objects:  63% (161/254)
+Receiving objects:  64% (163/254)
+Receiving objects:  65% (166/254)
+Receiving objects:  66% (168/254)
+Receiving objects:  67% (171/254)
+Receiving objects:  68% (173/254)
+Receiving objects:  69% (176/254)
+Receiving objects:  70% (178/254)
+Receiving objects:  71% (181/254)
+Receiving objects:  72% (183/254)
+Receiving objects:  73% (186/254)
+Receiving objects:  74% (188/254)
+Receiving objects:  75% (191/254)
+Receiving objects:  76% (194/254)
+Receiving objects:  77% (196/254)
+Receiving objects:  78% (199/254)
+Receiving objects:  79% (201/254)
+Receiving objects:  80% (204/254)
+Receiving objects:  81% (206/254)
+Receiving objects:  82% (209/254)
+Receiving objects:  83% (211/254)
+Receiving objects:  84% (214/254)
+Receiving objects:  85% (216/254)
+Receiving objects:  86% (219/254)
+Receiving objects:  87% (221/254)
+Receiving objects:  88% (224/254)
+Receiving objects:  89% (227/254)
+Receiving objects:  90% (229/254)
+Receiving objects:  91% (232/254)
+Receiving objects:  92% (234/254)
+Receiving objects:  93% (237/254)
+remote: Total 254 (delta 86), reused 224 (delta 58), pack-reused 0[K
+Receiving objects:  94% (239/254)
+Receiving objects:  95% (242/254)
+Receiving objects:  96% (244/254)
+Receiving objects:  97% (247/254)
+Receiving objects:  98% (249/254)
+Receiving objects:  99% (252/254)
+Receiving objects: 100% (254/254)
+Receiving objects: 100% (254/254), 5.59 MiB | 23.38 MiB/s, done.
+Resolving deltas:   0% (0/86)
+Resolving deltas:   2% (2/86)
+Resolving deltas:   3% (3/86)
+Resolving deltas:   4% (4/86)
+Resolving deltas:  26% (23/86)
+Resolving deltas:  30% (26/86)
+Resolving deltas:  31% (27/86)
+Resolving deltas:  34% (30/86)
+Resolving deltas:  38% (33/86)
+Resolving deltas:  39% (34/86)
+Resolving deltas:  43% (37/86)
+Resolving deltas:  45% (39/86)
+Resolving deltas:  47% (41/86)
+Resolving deltas:  52% (45/86)
+Resolving deltas:  53% (46/86)
+Resolving deltas:  54% (47/86)
+Resolving deltas:  55% (48/86)
+Resolving deltas:  56% (49/86)
+Resolving deltas:  58% (50/86)
+Resolving deltas:  63% (55/86)
+Resolving deltas:  69% (60/86)
+Resolving deltas:  73% (63/86)
+Resolving deltas:  75% (65/86)
+Resolving deltas:  76% (66/86)
+Resolving deltas:  82% (71/86)
+Resolving deltas:  83% (72/86)
+Resolving deltas:  86% (74/86)
+Resolving deltas:  88% (76/86)
+Resolving deltas:  93% (80/86)
+Resolving deltas: 100% (86/86)
+Resolving deltas: 100% (86/86), done.
+travis_time:end:0db337f4:start=1612370706979082400,finish=1612370708013141428,duration=1034059028,event=checkout
+[0K$ cd benjdaun/udagram-microservice
+$ git checkout -qf 2d4741b2f6171091112d038cd70721b83aa15b6a
+travis_fold:end:git.checkout
+[0K
+travis_time:end:0db337f4:start=1612370706979082400,finish=1612370708037377282,duration=1058294882,event=checkout
+[0Ktravis_time:start:21ddbe90
+[0Ktravis_time:end:21ddbe90:start=1612370708040413165,finish=1612370708046019798,duration=5606633,event=env
+[0Ktravis_fold:start:nvm.install
+[0Ktravis_time:start:0064b301
+[0K$ nvm install 12
+Downloading and installing node v12.20.1...
+Downloading https://nodejs.org/dist/v12.20.1/node-v12.20.1-linux-x64.tar.xz...
+Computing checksum with sha256sum
+Checksums matched!
+Now using node v12.20.1 (npm v6.14.10)
+travis_time:end:0064b301:start=1612370708866629743,finish=1612370711650479955,duration=2783850212,event=setup
+[0Ktravis_fold:end:nvm.install
+[0K
+travis_fold:start:cache.1
+[0KSetting up build cache
+$ export CASHER_DIR=${TRAVIS_HOME}/.casher
+travis_time:start:01e43a5a
+[0K$ Installing caching utilities
+travis_time:end:01e43a5a:start=1612370712674369314,finish=1612370712933612971,duration=259243657,event=setup_casher
+[0Ktravis_time:start:095bb298
+[0Ktravis_time:end:095bb298:start=1612370712938859247,finish=1612370712941526673,duration=2667426,event=setup_casher
+[0Ktravis_time:start:1065fd53
+[0Kattempting to download cache archive[0m
+[32;1mfetching main/cache--linux-xenial-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855--node-12.tgz[0m
+[32;1mfetching main/cache-linux-xenial-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855--node-12.tgz[0m
+[32;1mfetching main/cache--node-12.tgz[0m
+[31;1mcould not download cache[0m
+travis_time:end:1065fd53:start=1612370712944846300,finish=1612370714231733722,duration=1286887422,event=setup_casher
+[0Ktravis_fold:end:cache.1
+[0K
+travis_fold:start:cache.npm
+[0K
+travis_time:start:000cdb9e
+[0Ktravis_time:end:000cdb9e:start=1612370714392755918,finish=1612370714395735843,duration=2979925,event=setup_cache
+[0Ktravis_time:start:077a14fb
+[0Kadding /home/travis/.npm to cache[0m
+travis_time:end:077a14fb:start=1612370714399305257,finish=1612370715713940226,duration=1314634969,event=setup_cache
+[0Ktravis_fold:end:cache.npm
+[0K$ node --version
+v12.20.1
+$ npm --version
+6.14.10
+$ nvm --version
+0.37.2
+
+travis_fold:start:install
+[0Ktravis_time:start:18c80c00
+[0K$ echo "nothing needs to be installed"
+nothing needs to be installed
+travis_time:end:18c80c00:start=1612370716316757608,finish=1612370716319517647,duration=2760039,event=install
+[0Ktravis_fold:end:install
+[0Ktravis_fold:start:before_script
+[0Ktravis_time:start:1e20e668
+[0K$ echo "no tests"
+no tests
+travis_time:end:1e20e668:start=1612370716323391423,finish=1612370716325953728,duration=2562305,event=before_script
+[0Ktravis_fold:end:before_script
+[0Ktravis_time:start:02edf537
+[0K$ docker --version
+Docker version 18.06.0-ce, build 0ffa825
+travis_time:end:02edf537:start=1612370716329253975,finish=1612370716509776119,duration=180522144,event=script
+[0K[32;1mThe command "docker --version" exited with 0.[0m
+travis_time:start:001ac190
+[0K$ docker build -t udagram-proxy ./udagram-proxy
+Sending build context to Docker daemon  4.096kB
+
+
+Step 1/2 : FROM nginx:alpine
+alpine: Pulling from library/nginx
+
+[1A[1K[K
+801bfaa63ef2: Pulling fs layer 
+[1B
+[1A[1K[K
+b1242e25d284: Pulling fs layer 
+[1B
+[1A[1K[K
+7453d3e6b909: Pulling fs layer 
+[1B
+[1A[1K[K
+07ce7418c4f8: Pulling fs layer 
+[1B
+[1A[1K[K
+e295e0624aa3: Pulling fs layer 
+[1B[2A[1K[K
+07ce7418c4f8: Waiting 
+[2B[1A[1K[K
+e295e0624aa3: Waiting 
+[1B[5A[1K[K
+801bfaa63ef2: Downloading  2.799MB/2.799MB
+[5B[5A[1K[K
+801bfaa63ef2: Retrying in 5 seconds 
+[5B[3A[1K[K
+7453d3e6b909: Retrying in 5 seconds 
+[3B[4A[1K[K
+b1242e25d284: Retrying in 5 seconds 
+[4B[5A[1K[K
+801bfaa63ef2: Retrying in 4 seconds 
+[5B[3A[1K[K
+7453d3e6b909: Retrying in 4 seconds 
+[3B[4A[1K[K
+b1242e25d284: Retrying in 4 seconds 
+[4B[5A[1K[K
+801bfaa63ef2: Retrying in 3 seconds 
+[5B[3A[1K[K
+7453d3e6b909: Retrying in 3 seconds 
+[3B[4A[1K[K
+b1242e25d284: Retrying in 3 seconds 
+[4B[5A[1K[K
+801bfaa63ef2: Retrying in 2 seconds 
+[5B[3A[1K[K
+7453d3e6b909: Retrying in 2 seconds 
+[3B[4A[1K[K
+b1242e25d284: Retrying in 2 seconds 
+[4B[5A[1K[K
+801bfaa63ef2: Retrying in 1 second 
+[5B[3A[1K[K
+7453d3e6b909: Retrying in 1 second 
+[3B[4A[1K[K
+b1242e25d284: Retrying in 1 second 
+[4B[3A[1K[K
+7453d3e6b909: Retrying in 10 seconds 
+[3B[4A[1K[K
+b1242e25d284: Retrying in 10 seconds 
+[4B[5A[1K[K
+801bfaa63ef2: Retrying in 10 seconds 
+[5B[3A[1K[K
+7453d3e6b909: Retrying in 9 seconds 
+[3B[5A[1K[K
+801bfaa63ef2: Retrying in 9 seconds 
+[5B[4A[1K[K
+b1242e25d284: Retrying in 9 seconds 
+[4B[3A[1K[K
+7453d3e6b909: Retrying in 8 seconds 
+[3B[4A[1K[K
+b1242e25d284: Retrying in 8 seconds 
+[4B[5A[1K[K
+801bfaa63ef2: Retrying in 8 seconds 
+[5B[3A[1K[K
+7453d3e6b909: Retrying in 7 seconds 
+[3B[5A[1K[K
+801bfaa63ef2: Retrying in 7 seconds 
+[5B[4A[1K[K
+b1242e25d284: Retrying in 7 seconds 
+[4B[3A[1K[K
+7453d3e6b909: Retrying in 6 seconds 
+[3B[5A[1K[K
+801bfaa63ef2: Retrying in 6 seconds 
+[5B[4A[1K[K
+b1242e25d284: Retrying in 6 seconds 
+[4B[3A[1K[K
+7453d3e6b909: Retrying in 5 seconds 
+[3B[5A[1K[K
+801bfaa63ef2: Retrying in 5 seconds 
+[5B[4A[1K[K
+b1242e25d284: Retrying in 5 seconds 
+[4B[3A[1K[K
+7453d3e6b909: Retrying in 4 seconds 
+[3B[4A[1K[K
+b1242e25d284: Retrying in 4 seconds 
+[4B[5A[1K[K
+801bfaa63ef2: Retrying in 4 seconds 
+[5B[3A[1K[K
+7453d3e6b909: Retrying in 3 seconds 
+[3B[5A[1K[K
+801bfaa63ef2: Retrying in 3 seconds 
+[5B[4A[1K[K
+b1242e25d284: Retrying in 3 seconds 
+[4B[3A[1K[K
+7453d3e6b909: Retrying in 2 seconds 
+[3B[5A[1K[K
+801bfaa63ef2: Retrying in 2 seconds 
+[5B[4A[1K[K
+b1242e25d284: Retrying in 2 seconds 
+[4B[3A[1K[K
+7453d3e6b909: Retrying in 1 second 
+[3B[5A[1K[K
+801bfaa63ef2: Retrying in 1 second 
+[5B[4A[1K[K
+b1242e25d284: Retrying in 1 second 
+[4B[4A[1K[K
+b1242e25d284: Retrying in 15 seconds 
+[4B[5A[1K[K
+801bfaa63ef2: Downloading  2.799MB/2.799MB
+[5B[3A[1K[K
+7453d3e6b909: Downloading     600B/600B
+[3B[5A[1K[K
+801bfaa63ef2: Retrying in 15 seconds 
+[5B[3A[1K[K
+7453d3e6b909: Retrying in 15 seconds 
+[3B[4A[1K[K
+b1242e25d284: Retrying in 14 seconds 
+[4B[3A[1K[K
+7453d3e6b909: Retrying in 14 seconds 
+[3B[5A[1K[K
+801bfaa63ef2: Retrying in 14 seconds 
+[5B[4A[1K[K
+b1242e25d284: Retrying in 13 seconds 
+[4B[3A[1K[K
+7453d3e6b909: Retrying in 13 seconds 
+[3B[5A[1K[K
+801bfaa63ef2: Retrying in 13 seconds 
+[5B[4A[1K[K
+b1242e25d284: Retrying in 12 seconds 
+[4B[3A[1K[K
+7453d3e6b909: Retrying in 12 seconds 
+[3B[5A[1K[K
+801bfaa63ef2: Retrying in 12 seconds 
+[5B[4A[1K[K
+b1242e25d284: Retrying in 11 seconds 
+[4B[5A[1K[K
+801bfaa63ef2: Retrying in 11 seconds 
+[5B[3A[1K[K
+7453d3e6b909: Retrying in 11 seconds 
+[3B[4A[1K[K
+b1242e25d284: Retrying in 10 seconds 
+[4B[3A[1K[K
+7453d3e6b909: Retrying in 10 seconds 
+[3B[5A[1K[K
+801bfaa63ef2: Retrying in 10 seconds 
+[5B[4A[1K[K
+b1242e25d284: Retrying in 9 seconds 
+[4B[3A[1K[K
+7453d3e6b909: Retrying in 9 seconds 
+[3B[5A[1K[K
+801bfaa63ef2: Retrying in 9 seconds 
+[5B[4A[1K[K
+b1242e25d284: Retrying in 8 seconds 
+[4B[5A[1K[K
+801bfaa63ef2: Retrying in 8 seconds 
+[5B[3A[1K[K
+7453d3e6b909: Retrying in 8 seconds 
+[3B[4A[1K[K
+b1242e25d284: Retrying in 7 seconds 
+[4B[3A[1K[K
+7453d3e6b909: Retrying in 7 seconds 
+[3B[5A[1K[K
+801bfaa63ef2: Retrying in 7 seconds 
+[5B[4A[1K[K
+b1242e25d284: Retrying in 6 seconds 
+[4B[5A[1K[K
+801bfaa63ef2: Retrying in 6 seconds 
+[5B[3A[1K[K
+7453d3e6b909: Retrying in 6 seconds 
+[3B[4A[1K[K
+b1242e25d284: Retrying in 5 seconds 
+[4B[5A[1K[K
+801bfaa63ef2: Retrying in 5 seconds 
+[5B[3A[1K[K
+7453d3e6b909: Retrying in 5 seconds 
+[3B[4A[1K[K
+b1242e25d284: Retrying in 4 seconds 
+[4B[5A[1K[K
+801bfaa63ef2: Retrying in 4 seconds 
+[5B[3A[1K[K
+7453d3e6b909: Retrying in 4 seconds 
+[3B[4A[1K[K
+b1242e25d284: Retrying in 3 seconds 
+[4B[5A[1K[K
+801bfaa63ef2: Retrying in 3 seconds 
+[5B[3A[1K[K
+7453d3e6b909: Retrying in 3 seconds 
+[3B[4A[1K[K
+b1242e25d284: Retrying in 2 seconds 
+[4B[3A[1K[K
+7453d3e6b909: Retrying in 2 seconds 
+[3B[5A[1K[K
+801bfaa63ef2: Retrying in 2 seconds 
+[5B[4A[1K[K
+b1242e25d284: Retrying in 1 second 
+[4B[3A[1K[K
+7453d3e6b909: Retrying in 1 second 
+[3B[5A[1K[K
+801bfaa63ef2: Retrying in 1 second 
+[5B[3A[1K[K
+7453d3e6b909: Retrying in 20 seconds 
+[3B[4A[1K[K
+b1242e25d284: Retrying in 20 seconds 
+[4B[5A[1K[K
+801bfaa63ef2: Retrying in 20 seconds 
+[5B[3A[1K[K
+7453d3e6b909: Retrying in 19 seconds 
+[3B[4A[1K[K
+b1242e25d284: Retrying in 19 seconds 
+[4B[5A[1K[K
+801bfaa63ef2: Retrying in 19 seconds 
+[5B[3A[1K[K
+7453d3e6b909: Retrying in 18 seconds 
+[3B[4A[1K[K
+b1242e25d284: Retrying in 18 seconds 
+[4B[5A[1K[K
+801bfaa63ef2: Retrying in 18 seconds 
+[5B[3A[1K[K
+7453d3e6b909: Retrying in 17 seconds 
+[3B[4A[1K[K
+b1242e25d284: Retrying in 17 seconds 
+[4B[5A[1K[K
+801bfaa63ef2: Retrying in 17 seconds 
+[5B[3A[1K[K
+7453d3e6b909: Retrying in 16 seconds 
+[3B[4A[1K[K
+b1242e25d284: Retrying in 16 seconds 
+[4B[5A[1K[K
+801bfaa63ef2: Retrying in 16 seconds 
+[5B[3A[1K[K
+7453d3e6b909: Retrying in 15 seconds 
+[3B[4A[1K[K
+b1242e25d284: Retrying in 15 seconds 
+[4B[5A[1K[K
+801bfaa63ef2: Retrying in 15 seconds 
+[5B[3A[1K[K
+7453d3e6b909: Retrying in 14 seconds 
+[3B[4A[1K[K
+b1242e25d284: Retrying in 14 seconds 
+[4B[5A[1K[K
+801bfaa63ef2: Retrying in 14 seconds 
+[5B[3A[1K[K
+7453d3e6b909: Retrying in 13 seconds 
+[3B[4A[1K[K
+b1242e25d284: Retrying in 13 seconds 
+[4B[5A[1K[K
+801bfaa63ef2: Retrying in 13 seconds 
+[5B[3A[1K[K
+7453d3e6b909: Retrying in 12 seconds 
+[3B[4A[1K[K
+b1242e25d284: Retrying in 12 seconds 
+[4B[5A[1K[K
+801bfaa63ef2: Retrying in 12 seconds 
+[5B[3A[1K[K
+7453d3e6b909: Retrying in 11 seconds 
+[3B[4A[1K[K
+b1242e25d284: Retrying in 11 seconds 
+[4B[5A[1K[K
+801bfaa63ef2: Retrying in 11 seconds 
+[5B[4A[1K[K
+b1242e25d284: Retrying in 10 seconds 
+[4B[3A[1K[K
+7453d3e6b909: Retrying in 10 seconds 
+[3B[5A[1K[K
+801bfaa63ef2: Retrying in 10 seconds 
+[5B[3A[1K[K
+7453d3e6b909: Retrying in 9 seconds 
+[3B[4A[1K[K
+b1242e25d284: Retrying in 9 seconds 
+[4B[5A[1K[K
+801bfaa63ef2: Retrying in 9 seconds 
+[5B[4A[1K[K
+b1242e25d284: Retrying in 8 seconds 
+[4B[3A[1K[K
+7453d3e6b909: Retrying in 8 seconds 
+[3B[5A[1K[K
+801bfaa63ef2: Retrying in 8 seconds 
+[5B[3A[1K[K
+7453d3e6b909: Retrying in 7 seconds 
+[3B[4A[1K[K
+b1242e25d284: Retrying in 7 seconds 
+[4B[5A[1K[K
+801bfaa63ef2: Retrying in 7 seconds 
+[5B[3A[1K[K
+7453d3e6b909: Retrying in 6 seconds 
+[3B[4A[1K[K
+b1242e25d284: Retrying in 6 seconds 
+[4B[5A[1K[K
+801bfaa63ef2: Retrying in 6 seconds 
+[5B[3A[1K[K
+7453d3e6b909: Retrying in 5 seconds 
+[3B[4A[1K[K
+b1242e25d284: Retrying in 5 seconds 
+[4B[5A[1K[K
+801bfaa63ef2: Retrying in 5 seconds 
+[5B[3A[1K[K
+7453d3e6b909: Retrying in 4 seconds 
+[3B[4A[1K[K
+b1242e25d284: Retrying in 4 seconds 
+[4B[5A[1K[K
+801bfaa63ef2: Retrying in 4 seconds 
+[5B[3A[1K[K
+7453d3e6b909: Retrying in 3 seconds 
+[3B[4A[1K[K
+b1242e25d284: Retrying in 3 seconds 
+[4B[5A[1K[K
+801bfaa63ef2: Retrying in 3 seconds 
+[5B[3A[1K[K
+7453d3e6b909: Retrying in 2 seconds 
+[3B[4A[1K[K
+b1242e25d284: Retrying in 2 seconds 
+[4B[5A[1K[K
+801bfaa63ef2: Retrying in 2 seconds 
+[5B[3A[1K[K
+7453d3e6b909: Retrying in 1 second 
+[3B[4A[1K[K
+b1242e25d284: Retrying in 1 second 
+[4B[5A[1K[K
+801bfaa63ef2: Retrying in 1 second 
+[5B[5A[1K[K
+801bfaa63ef2: Downloading  2.799MB/2.799MB
+[5B[4A[1K[K
+b1242e25d284: Downloading  6.908MB/6.908MB
+[4B[3A[1K[K
+7453d3e6b909: Downloading     600B/600B
+[3B[1A[1K[K
+e295e0624aa3: Downloading     666B/666B
+[1B[1A[1K[K
+e295e0624aa3: Retrying in 5 seconds 
+[1B[2A[1K[K
+07ce7418c4f8: Retrying in 5 seconds 
+[2B[1A[1K[K
+e295e0624aa3: Retrying in 4 seconds 
+[1B[2A[1K[K
+07ce7418c4f8: Retrying in 4 seconds 
+[2B[1A[1K[K
+e295e0624aa3: Retrying in 3 seconds 
+[1B[2A[1K[K
+07ce7418c4f8: Retrying in 3 seconds 
+[2B[1A[1K[K
+e295e0624aa3: Retrying in 2 seconds 
+[1B[2A[1K[K
+07ce7418c4f8: Retrying in 2 seconds 
+[2B[1A[1K[K
+e295e0624aa3: Retrying in 1 second 
+[1B[2A[1K[K
+07ce7418c4f8: Retrying in 1 second 
+[2B[2A[1K[K
+07ce7418c4f8: Retrying in 10 seconds 
+[2B[1A[1K[K
+e295e0624aa3: Downloading     666B/666B
+[1B[1A[1K[K
+e295e0624aa3: Retrying in 10 seconds 
+[1B[2A[1K[K
+07ce7418c4f8: Retrying in 9 seconds 
+[2B[1A[1K[K
+e295e0624aa3: Retrying in 9 seconds 
+[1B[2A[1K[K
+07ce7418c4f8: Retrying in 8 seconds 
+[2B[1A[1K[K
+e295e0624aa3: Retrying in 8 seconds 
+[1B[2A[1K[K
+07ce7418c4f8: Retrying in 7 seconds 
+[2B[1A[1K[K
+e295e0624aa3: Retrying in 7 seconds 
+[1B[2A[1K[K
+07ce7418c4f8: Retrying in 6 seconds 
+[2B[1A[1K[K
+e295e0624aa3: Retrying in 6 seconds 
+[1B[2A[1K[K
+07ce7418c4f8: Retrying in 5 seconds 
+[2B[1A[1K[K
+e295e0624aa3: Retrying in 5 seconds 
+[1B[2A[1K[K
+07ce7418c4f8: Retrying in 4 seconds 
+[2B[1A[1K[K
+e295e0624aa3: Retrying in 4 seconds 
+[1B[2A[1K[K
+07ce7418c4f8: Retrying in 3 seconds 
+[2B[1A[1K[K
+e295e0624aa3: Retrying in 3 seconds 
+[1B[2A[1K[K
+07ce7418c4f8: Retrying in 2 seconds 
+[2B[1A[1K[K
+e295e0624aa3: Retrying in 2 seconds 
+[1B[2A[1K[K
+07ce7418c4f8: Retrying in 1 second 
+[2B[1A[1K[K
+e295e0624aa3: Retrying in 1 second 
+[1B[1A[1K[K
+e295e0624aa3: Downloading     666B/666B
+[1B[1A[1K[K
+e295e0624aa3: Retrying in 15 seconds 
+[1B[2A[1K[K
+07ce7418c4f8: Downloading     894B/894B
+[2B[2A[1K[K
+07ce7418c4f8: Retrying in 15 seconds 
+[2B[1A[1K[K
+e295e0624aa3: Retrying in 14 seconds 
+[1B[2A[1K[K
+07ce7418c4f8: Retrying in 14 seconds 
+[2B[1A[1K[K
+e295e0624aa3: Retrying in 13 seconds 
+[1B[2A[1K[K
+07ce7418c4f8: Retrying in 13 seconds 
+[2B[1A[1K[K
+e295e0624aa3: Retrying in 12 seconds 
+[1B[2A[1K[K
+07ce7418c4f8: Retrying in 12 seconds 
+[2B[1A[1K[K
+e295e0624aa3: Retrying in 11 seconds 
+[1B[2A[1K[K
+07ce7418c4f8: Retrying in 11 seconds 
+[2B[1A[1K[K
+e295e0624aa3: Retrying in 10 seconds 
+[1B[2A[1K[K
+07ce7418c4f8: Retrying in 10 seconds 
+[2B[1A[1K[K
+e295e0624aa3: Retrying in 9 seconds 
+[1B[2A[1K[K
+07ce7418c4f8: Retrying in 9 seconds 
+[2B[1A[1K[K
+e295e0624aa3: Retrying in 8 seconds 
+[1B[2A[1K[K
+07ce7418c4f8: Retrying in 8 seconds 
+[2B[1A[1K[K
+e295e0624aa3: Retrying in 7 seconds 
+[1B[2A[1K[K
+07ce7418c4f8: Retrying in 7 seconds 
+[2B[1A[1K[K
+e295e0624aa3: Retrying in 6 seconds 
+[1B[2A[1K[K
+07ce7418c4f8: Retrying in 6 seconds 
+[2B[1A[1K[K
+e295e0624aa3: Retrying in 5 seconds 
+[1B[2A[1K[K
+07ce7418c4f8: Retrying in 5 seconds 
+[2B[1A[1K[K
+e295e0624aa3: Retrying in 4 seconds 
+[1B[2A[1K[K
+07ce7418c4f8: Retrying in 4 seconds 
+[2B[1A[1K[K
+e295e0624aa3: Retrying in 3 seconds 
+[1B[2A[1K[K
+07ce7418c4f8: Retrying in 3 seconds 
+[2B[1A[1K[K
+e295e0624aa3: Retrying in 2 seconds 
+[1B[2A[1K[K
+07ce7418c4f8: Retrying in 2 seconds 
+[2B[1A[1K[K
+e295e0624aa3: Retrying in 1 second 
+[1B[2A[1K[K
+07ce7418c4f8: Retrying in 1 second 
+[2B[1A[1K[K
+e295e0624aa3: Downloading     666B/666B
+[1B[2A[1K[K
+07ce7418c4f8: Downloading     894B/894B
+[2B[1A[1K[K
+e295e0624aa3: Retrying in 20 seconds 
+[1B[2A[1K[K
+07ce7418c4f8: Retrying in 20 seconds 
+[2B[2A[1K[K
+07ce7418c4f8: Retrying in 19 seconds 
+[2B[1A[1K[K
+e295e0624aa3: Retrying in 19 seconds 
+[1B[2A[1K[K
+07ce7418c4f8: Retrying in 18 seconds 
+[2B[1A[1K[K
+e295e0624aa3: Retrying in 18 seconds 
+[1B[1A[1K[K
+e295e0624aa3: Retrying in 17 seconds 
+[1B[2A[1K[K
+07ce7418c4f8: Retrying in 17 seconds 
+[2B[2A[1K[K
+07ce7418c4f8: Retrying in 16 seconds 
+[2B[1A[1K[K
+e295e0624aa3: Retrying in 16 seconds 
+[1B[1A[1K[K
+e295e0624aa3: Retrying in 15 seconds 
+[1B[2A[1K[K
+07ce7418c4f8: Retrying in 15 seconds 
+[2B[2A[1K[K
+07ce7418c4f8: Retrying in 14 seconds 
+[2B[1A[1K[K
+e295e0624aa3: Retrying in 14 seconds 
+[1B[1A[1K[K
+e295e0624aa3: Retrying in 13 seconds 
+[1B[2A[1K[K
+07ce7418c4f8: Retrying in 13 seconds 
+[2B[2A[1K[K
+07ce7418c4f8: Retrying in 12 seconds 
+[2B[1A[1K[K
+e295e0624aa3: Retrying in 12 seconds 
+[1B[1A[1K[K
+e295e0624aa3: Retrying in 11 seconds 
+[1B[2A[1K[K
+07ce7418c4f8: Retrying in 11 seconds 
+[2B[2A[1K[K
+07ce7418c4f8: Retrying in 10 seconds 
+[2B[1A[1K[K
+e295e0624aa3: Retrying in 10 seconds 
+[1B[2A[1K[K
+07ce7418c4f8: Retrying in 9 seconds 
+[2B[1A[1K[K
+e295e0624aa3: Retrying in 9 seconds 
+[1B[1A[1K[K
+e295e0624aa3: Retrying in 8 seconds 
+[1B[2A[1K[K
+07ce7418c4f8: Retrying in 8 seconds 
+[2B[1A[1K[K
+e295e0624aa3: Retrying in 7 seconds 
+[1B[2A[1K[K
+07ce7418c4f8: Retrying in 7 seconds 
+[2B[1A[1K[K
+e295e0624aa3: Retrying in 6 seconds 
+[1B[2A[1K[K
+07ce7418c4f8: Retrying in 6 seconds 
+[2B[1A[1K[K
+e295e0624aa3: Retrying in 5 seconds 
+[1B[2A[1K[K
+07ce7418c4f8: Retrying in 5 seconds 
+[2B[1A[1K[K
+e295e0624aa3: Retrying in 4 seconds 
+[1B[2A[1K[K
+07ce7418c4f8: Retrying in 4 seconds 
+[2B[2A[1K[K
+07ce7418c4f8: Retrying in 3 seconds 
+[2B[1A[1K[K
+e295e0624aa3: Retrying in 3 seconds 
+[1B[2A[1K[K
+07ce7418c4f8: Retrying in 2 seconds 
+[2B[1A[1K[K
+e295e0624aa3: Retrying in 2 seconds 
+[1B[1A[1K[K
+e295e0624aa3: Retrying in 1 second 
+[1B[2A[1K[K
+07ce7418c4f8: Retrying in 1 second 
+[2B[2A[1K[K
+07ce7418c4f8: Downloading     894B/894B
+[2B[1A[1K[K
+e295e0624aa3: Downloading     666B/666B
+[1Balpine: Pulling from library/nginx
+
+[1A[1K[K
+801bfaa63ef2: Pulling fs layer 
+[1B
+[1A[1K[K
+b1242e25d284: Pulling fs layer 
+[1B
+[1A[1K[K
+7453d3e6b909: Pulling fs layer 
+[1B
+[1A[1K[K
+07ce7418c4f8: Pulling fs layer 
+[1B
+[1A[1K[K
+e295e0624aa3: Pulling fs layer 
+[1B[2A[1K[K
+07ce7418c4f8: Waiting 
+[2B[1A[1K[K
+e295e0624aa3: Waiting 
+[1B[3A[1K[K
+7453d3e6b909: Downloading     424B/600B
+[3B[3A[1K[K
+7453d3e6b909: Downloading     600B/600B
+[3B[3A[1K[K
+7453d3e6b909: Verifying Checksum 
+[3B[3A[1K[K
+7453d3e6b909: Download complete 
+[3B[5A[1K[K
+801bfaa63ef2: Downloading  29.17kB/2.799MB
+[5B[4A[1K[K
+b1242e25d284: Downloading  70.78kB/6.908MB
+[4B[5A[1K[K
+801bfaa63ef2: Verifying Checksum 
+[5B[5A[1K[K
+801bfaa63ef2: Extracting  32.77kB/2.799MB
+[5B[4A[1K[K
+b1242e25d284: Downloading  4.258MB/6.908MB
+[4B[5A[1K[K
+801bfaa63ef2: Extracting  917.5kB/2.799MB
+[5B[4A[1K[K
+b1242e25d284: Verifying Checksum 
+[4B[4A[1K[K
+b1242e25d284: Download complete 
+[4B[2A[1K[K
+07ce7418c4f8: Downloading     424B/894B
+[2B[2A[1K[K
+07ce7418c4f8: Downloading     894B/894B
+[2B[2A[1K[K
+07ce7418c4f8: Verifying Checksum 
+[2B[2A[1K[K
+07ce7418c4f8: Download complete 
+[2B[5A[1K[K
+801bfaa63ef2: Extracting  2.799MB/2.799MB
+[5B[5A[1K[K
+801bfaa63ef2: Pull complete 
+[5B[1A[1K[K
+e295e0624aa3: Downloading     424B/666B
+[1B[1A[1K[K
+e295e0624aa3: Downloading     666B/666B
+[1B[1A[1K[K
+e295e0624aa3: Verifying Checksum 
+[1B[1A[1K[K
+e295e0624aa3: Download complete 
+[1B[4A[1K[K
+b1242e25d284: Extracting   98.3kB/6.908MB
+[4B[4A[1K[K
+b1242e25d284: Extracting  2.458MB/6.908MB
+[4B[4A[1K[K
+b1242e25d284: Extracting  5.112MB/6.908MB
+[4B[4A[1K[K
+b1242e25d284: Extracting  6.783MB/6.908MB
+[4B[4A[1K[K
+b1242e25d284: Extracting  6.908MB/6.908MB
+[4B[4A[1K[K
+b1242e25d284: Pull complete 
+[4B[3A[1K[K
+7453d3e6b909: Extracting     600B/600B
+[3B[3A[1K[K
+7453d3e6b909: Extracting     600B/600B
+[3B[3A[1K[K
+7453d3e6b909: Pull complete 
+[3B[2A[1K[K
+07ce7418c4f8: Extracting     894B/894B
+[2B[2A[1K[K
+07ce7418c4f8: Extracting     894B/894B
+[2B[2A[1K[K
+07ce7418c4f8: Pull complete 
+[2B[1A[1K[K
+e295e0624aa3: Extracting     666B/666B
+[1B[1A[1K[K
+e295e0624aa3: Extracting     666B/666B
+[1B[1A[1K[K
+e295e0624aa3: Pull complete 
+[1BDigest: sha256:c2ce58e024275728b00a554ac25628af25c54782865b3487b11c21cafb7fabda
+Status: Downloaded newer image for nginx:alpine
+ ---> 629df02b47c8
+Step 2/2 : COPY nginx.conf /etc/nginx/nginx.conf
+ ---> ed588532ff80
+Successfully built ed588532ff80
+Successfully tagged udagram-proxy:latest
+travis_time:end:001ac190:start=1612370716513792369,finish=1612370819285930203,duration=102772137834,event=script
+[0K[32;1mThe command "docker build -t udagram-proxy ./udagram-proxy" exited with 0.[0m
+travis_time:start:26de5d74
+[0K$ docker tag udagram-proxy benjdaun3k900/udagram-proxy:latest
+travis_time:end:26de5d74:start=1612370819289945113,finish=1612370819353107274,duration=63162161,event=script
+[0K[32;1mThe command "docker tag udagram-proxy benjdaun3k900/udagram-proxy:latest" exited with 0.[0m
+travis_time:start:02026be7
+[0K$ docker build -t udagram-api-feed ./udagram-api-feed
+Sending build context to Docker daemon  202.8kB
+
+
+Step 1/8 : FROM node:12.20.0
+12.20.0: Pulling from library/node
+
+[1A[1K[K
+22f9b9782fc3: Pulling fs layer 
+[1B
+[1A[1K[K
+072739d44e4f: Pulling fs layer 
+[1B
+[1A[1K[K
+5111f27e9600: Pulling fs layer 
+[1B
+[1A[1K[K
+dc22afea6082: Pulling fs layer 
+[1B
+[1A[1K[K
+0ad0b403cda0: Pulling fs layer 
+[1B
+[1A[1K[K
+bca65cadbc25: Pulling fs layer 
+[1B
+[1A[1K[K
+c1e57ccc1a03: Pulling fs layer 
+[1B
+[1A[1K[K
+2571476d0e73: Pulling fs layer 
+[1B
+[1A[1K[K
+e3719000bb2c: Pulling fs layer 
+[1B[5A[1K[K
+0ad0b403cda0: Waiting 
+[5B[4A[1K[K
+bca65cadbc25: Waiting 
+[4B[3A[1K[K
+c1e57ccc1a03: Waiting 
+[3B[2A[1K[K
+2571476d0e73: Waiting 
+[2B[1A[1K[K
+e3719000bb2c: Waiting 
+[1B[6A[1K[K
+dc22afea6082: Waiting 
+[6B[7A[1K[K
+5111f27e9600: Downloading  4.341MB/4.341MB
+[7B[7A[1K[K
+5111f27e9600: Retrying in 5 seconds 
+[7B[8A[1K[K
+072739d44e4f: Retrying in 5 seconds 
+[8B[9A[1K[K
+22f9b9782fc3: Downloading  458.8kB/45.38MB
+[9B[9A[1K[K
+22f9b9782fc3: Downloading  16.06MB/45.38MB
+[9B[9A[1K[K
+22f9b9782fc3: Downloading  31.65MB/45.38MB
+[9B[9A[1K[K
+22f9b9782fc3: Verifying Checksum 
+[9B[9A[1K[K
+22f9b9782fc3: Download complete 
+[9B[6A[1K[K
+dc22afea6082: Retrying in 5 seconds 
+[6B[9A[1K[K
+22f9b9782fc3: Extracting  458.8kB/45.38MB
+[9B[9A[1K[K
+22f9b9782fc3: Extracting  2.753MB/45.38MB
+[9B[9A[1K[K
+22f9b9782fc3: Extracting  5.964MB/45.38MB
+[9B[9A[1K[K
+22f9b9782fc3: Extracting  8.258MB/45.38MB
+[9B[9A[1K[K
+22f9b9782fc3: Extracting  11.01MB/45.38MB
+[9B[9A[1K[K
+22f9b9782fc3: Extracting   13.3MB/45.38MB
+[9B[7A[1K[K
+5111f27e9600: Retrying in 4 seconds 
+[7B[8A[1K[K
+072739d44e4f: Retrying in 4 seconds 
+[8B[9A[1K[K
+22f9b9782fc3: Extracting   15.6MB/45.38MB
+[9B[9A[1K[K
+22f9b9782fc3: Extracting  17.89MB/45.38MB
+[9B[9A[1K[K
+22f9b9782fc3: Extracting  20.64MB/45.38MB
+[9B[6A[1K[K
+dc22afea6082: Retrying in 4 seconds 
+[6B[9A[1K[K
+22f9b9782fc3: Extracting  21.56MB/45.38MB
+[9B[9A[1K[K
+22f9b9782fc3: Extracting  26.61MB/45.38MB
+[9B[9A[1K[K
+22f9b9782fc3: Extracting   31.2MB/45.38MB
+[9B[9A[1K[K
+22f9b9782fc3: Extracting  33.49MB/45.38MB
+[9B[9A[1K[K
+22f9b9782fc3: Extracting  35.78MB/45.38MB
+[9B[9A[1K[K
+22f9b9782fc3: Extracting  38.08MB/45.38MB
+[9B[7A[1K[K
+5111f27e9600: Retrying in 3 seconds 
+[7B[8A[1K[K
+072739d44e4f: Retrying in 3 seconds 
+[8B[9A[1K[K
+22f9b9782fc3: Extracting  40.37MB/45.38MB
+[9B[9A[1K[K
+22f9b9782fc3: Extracting  42.66MB/45.38MB
+[9B[6A[1K[K
+dc22afea6082: Retrying in 3 seconds 
+[6B[9A[1K[K
+22f9b9782fc3: Extracting   44.5MB/45.38MB
+[9B[9A[1K[K
+22f9b9782fc3: Extracting  45.38MB/45.38MB
+[9B[9A[1K[K
+22f9b9782fc3: Pull complete 
+[9B[7A[1K[K
+5111f27e9600: Retrying in 2 seconds 
+[7B[8A[1K[K
+072739d44e4f: Retrying in 2 seconds 
+[8B[6A[1K[K
+dc22afea6082: Retrying in 2 seconds 
+[6B[7A[1K[K
+5111f27e9600: Retrying in 1 second 
+[7B[8A[1K[K
+072739d44e4f: Retrying in 1 second 
+[8B[6A[1K[K
+dc22afea6082: Retrying in 1 second 
+[6B[7A[1K[K
+5111f27e9600: Downloading  4.341MB/4.341MB
+[7B[7A[1K[K
+5111f27e9600: Retrying in 10 seconds 
+[7B[8A[1K[K
+072739d44e4f: Retrying in 10 seconds 
+[8B[6A[1K[K
+dc22afea6082: Downloading  50.11MB/50.11MB
+[6B[6A[1K[K
+dc22afea6082: Retrying in 10 seconds 
+[6B[7A[1K[K
+5111f27e9600: Retrying in 9 seconds 
+[7B[8A[1K[K
+072739d44e4f: Retrying in 9 seconds 
+[8B[6A[1K[K
+dc22afea6082: Retrying in 9 seconds 
+[6B[7A[1K[K
+5111f27e9600: Retrying in 8 seconds 
+[7B[8A[1K[K
+072739d44e4f: Retrying in 8 seconds 
+[8B[6A[1K[K
+dc22afea6082: Retrying in 8 seconds 
+[6B[7A[1K[K
+5111f27e9600: Retrying in 7 seconds 
+[7B[8A[1K[K
+072739d44e4f: Retrying in 7 seconds 
+[8B[6A[1K[K
+dc22afea6082: Retrying in 7 seconds 
+[6B[7A[1K[K
+5111f27e9600: Retrying in 6 seconds 
+[7B[8A[1K[K
+072739d44e4f: Retrying in 6 seconds 
+[8B[6A[1K[K
+dc22afea6082: Retrying in 6 seconds 
+[6B[7A[1K[K
+5111f27e9600: Retrying in 5 seconds 
+[7B[8A[1K[K
+072739d44e4f: Retrying in 5 seconds 
+[8B[6A[1K[K
+dc22afea6082: Retrying in 5 seconds 
+[6B[7A[1K[K
+5111f27e9600: Retrying in 4 seconds 
+[7B[8A[1K[K
+072739d44e4f: Retrying in 4 seconds 
+[8B[6A[1K[K
+dc22afea6082: Retrying in 4 seconds 
+[6B[7A[1K[K
+5111f27e9600: Retrying in 3 seconds 
+[7B[8A[1K[K
+072739d44e4f: Retrying in 3 seconds 
+[8B[6A[1K[K
+dc22afea6082: Retrying in 3 seconds 
+[6B[7A[1K[K
+5111f27e9600: Retrying in 2 seconds 
+[7B[8A[1K[K
+072739d44e4f: Retrying in 2 seconds 
+[8B[6A[1K[K
+dc22afea6082: Retrying in 2 seconds 
+[6B[7A[1K[K
+5111f27e9600: Retrying in 1 second 
+[7B[8A[1K[K
+072739d44e4f: Retrying in 1 second 
+[8B[6A[1K[K
+dc22afea6082: Retrying in 1 second 
+[6B[8A[1K[K
+072739d44e4f: Downloading  10.75MB/10.75MB
+[8B[7A[1K[K
+5111f27e9600: Retrying in 15 seconds 
+[7B[8A[1K[K
+072739d44e4f: Retrying in 15 seconds 
+[8B[6A[1K[K
+dc22afea6082: Downloading  50.11MB/50.11MB
+[6B[6A[1K[K
+dc22afea6082: Retrying in 15 seconds 
+[6B[8A[1K[K
+072739d44e4f: Retrying in 14 seconds 
+[8B[7A[1K[K
+5111f27e9600: Retrying in 14 seconds 
+[7B[6A[1K[K
+dc22afea6082: Retrying in 14 seconds 
+[6B[8A[1K[K
+072739d44e4f: Retrying in 13 seconds 
+[8B[7A[1K[K
+5111f27e9600: Retrying in 13 seconds 
+[7B[6A[1K[K
+dc22afea6082: Retrying in 13 seconds 
+[6B[8A[1K[K
+072739d44e4f: Retrying in 12 seconds 
+[8B[7A[1K[K
+5111f27e9600: Retrying in 12 seconds 
+[7B[6A[1K[K
+dc22afea6082: Retrying in 12 seconds 
+[6B[8A[1K[K
+072739d44e4f: Retrying in 11 seconds 
+[8B[7A[1K[K
+5111f27e9600: Retrying in 11 seconds 
+[7B[6A[1K[K
+dc22afea6082: Retrying in 11 seconds 
+[6B[8A[1K[K
+072739d44e4f: Retrying in 10 seconds 
+[8B[7A[1K[K
+5111f27e9600: Retrying in 10 seconds 
+[7B[6A[1K[K
+dc22afea6082: Retrying in 10 seconds 
+[6B[8A[1K[K
+072739d44e4f: Retrying in 9 seconds 
+[8B[7A[1K[K
+5111f27e9600: Retrying in 9 seconds 
+[7B[6A[1K[K
+dc22afea6082: Retrying in 9 seconds 
+[6B[8A[1K[K
+072739d44e4f: Retrying in 8 seconds 
+[8B[7A[1K[K
+5111f27e9600: Retrying in 8 seconds 
+[7B[6A[1K[K
+dc22afea6082: Retrying in 8 seconds 
+[6B[8A[1K[K
+072739d44e4f: Retrying in 7 seconds 
+[8B[7A[1K[K
+5111f27e9600: Retrying in 7 seconds 
+[7B[6A[1K[K
+dc22afea6082: Retrying in 7 seconds 
+[6B[8A[1K[K
+072739d44e4f: Retrying in 6 seconds 
+[8B[7A[1K[K
+5111f27e9600: Retrying in 6 seconds 
+[7B[6A[1K[K
+dc22afea6082: Retrying in 6 seconds 
+[6B[8A[1K[K
+072739d44e4f: Retrying in 5 seconds 
+[8B[7A[1K[K
+5111f27e9600: Retrying in 5 seconds 
+[7B[6A[1K[K
+dc22afea6082: Retrying in 5 seconds 
+[6B[8A[1K[K
+072739d44e4f: Retrying in 4 seconds 
+[8B[7A[1K[K
+5111f27e9600: Retrying in 4 seconds 
+[7B[6A[1K[K
+dc22afea6082: Retrying in 4 seconds 
+[6B[8A[1K[K
+072739d44e4f: Retrying in 3 seconds 
+[8B[7A[1K[K
+5111f27e9600: Retrying in 3 seconds 
+[7B[6A[1K[K
+dc22afea6082: Retrying in 3 seconds 
+[6B[8A[1K[K
+072739d44e4f: Retrying in 2 seconds 
+[8B[7A[1K[K
+5111f27e9600: Retrying in 2 seconds 
+[7B[6A[1K[K
+dc22afea6082: Retrying in 2 seconds 
+[6B[8A[1K[K
+072739d44e4f: Retrying in 1 second 
+[8B[7A[1K[K
+5111f27e9600: Retrying in 1 second 
+[7B[6A[1K[K
+dc22afea6082: Retrying in 1 second 
+[6B[8A[1K[K
+072739d44e4f: Downloading  10.75MB/10.75MB
+[8B[8A[1K[K
+072739d44e4f: Retrying in 20 seconds 
+[8B[7A[1K[K
+5111f27e9600: Retrying in 20 seconds 
+[7B[6A[1K[K
+dc22afea6082: Downloading  50.11MB/50.11MB
+[6B[6A[1K[K
+dc22afea6082: Retrying in 20 seconds 
+[6B[8A[1K[K
+072739d44e4f: Retrying in 19 seconds 
+[8B[7A[1K[K
+5111f27e9600: Retrying in 19 seconds 
+[7B[6A[1K[K
+dc22afea6082: Retrying in 19 seconds 
+[6B[8A[1K[K
+072739d44e4f: Retrying in 18 seconds 
+[8B[7A[1K[K
+5111f27e9600: Retrying in 18 seconds 
+[7B[6A[1K[K
+dc22afea6082: Retrying in 18 seconds 
+[6B[8A[1K[K
+072739d44e4f: Retrying in 17 seconds 
+[8B[7A[1K[K
+5111f27e9600: Retrying in 17 seconds 
+[7B[6A[1K[K
+dc22afea6082: Retrying in 17 seconds 
+[6B[8A[1K[K
+072739d44e4f: Retrying in 16 seconds 
+[8B[7A[1K[K
+5111f27e9600: Retrying in 16 seconds 
+[7B[6A[1K[K
+dc22afea6082: Retrying in 16 seconds 
+[6B[8A[1K[K
+072739d44e4f: Retrying in 15 seconds 
+[8B[7A[1K[K
+5111f27e9600: Retrying in 15 seconds 
+[7B[6A[1K[K
+dc22afea6082: Retrying in 15 seconds 
+[6B[8A[1K[K
+072739d44e4f: Retrying in 14 seconds 
+[8B[7A[1K[K
+5111f27e9600: Retrying in 14 seconds 
+[7B[6A[1K[K
+dc22afea6082: Retrying in 14 seconds 
+[6B[8A[1K[K
+072739d44e4f: Retrying in 13 seconds 
+[8B[7A[1K[K
+5111f27e9600: Retrying in 13 seconds 
+[7B[6A[1K[K
+dc22afea6082: Retrying in 13 seconds 
+[6B[8A[1K[K
+072739d44e4f: Retrying in 12 seconds 
+[8B[7A[1K[K
+5111f27e9600: Retrying in 12 seconds 
+[7B[6A[1K[K
+dc22afea6082: Retrying in 12 seconds 
+[6B[8A[1K[K
+072739d44e4f: Retrying in 11 seconds 
+[8B[7A[1K[K
+5111f27e9600: Retrying in 11 seconds 
+[7B[6A[1K[K
+dc22afea6082: Retrying in 11 seconds 
+[6B[8A[1K[K
+072739d44e4f: Retrying in 10 seconds 
+[8B[7A[1K[K
+5111f27e9600: Retrying in 10 seconds 
+[7B[6A[1K[K
+dc22afea6082: Retrying in 10 seconds 
+[6B[8A[1K[K
+072739d44e4f: Retrying in 9 seconds 
+[8B[7A[1K[K
+5111f27e9600: Retrying in 9 seconds 
+[7B[6A[1K[K
+dc22afea6082: Retrying in 9 seconds 
+[6B[8A[1K[K
+072739d44e4f: Retrying in 8 seconds 
+[8B[7A[1K[K
+5111f27e9600: Retrying in 8 seconds 
+[7B[6A[1K[K
+dc22afea6082: Retrying in 8 seconds 
+[6B[8A[1K[K
+072739d44e4f: Retrying in 7 seconds 
+[8B[7A[1K[K
+5111f27e9600: Retrying in 7 seconds 
+[7B[6A[1K[K
+dc22afea6082: Retrying in 7 seconds 
+[6B[8A[1K[K
+072739d44e4f: Retrying in 6 seconds 
+[8B[7A[1K[K
+5111f27e9600: Retrying in 6 seconds 
+[7B[6A[1K[K
+dc22afea6082: Retrying in 6 seconds 
+[6B[8A[1K[K
+072739d44e4f: Retrying in 5 seconds 
+[8B[7A[1K[K
+5111f27e9600: Retrying in 5 seconds 
+[7B[6A[1K[K
+dc22afea6082: Retrying in 5 seconds 
+[6B[8A[1K[K
+072739d44e4f: Retrying in 4 seconds 
+[8B[7A[1K[K
+5111f27e9600: Retrying in 4 seconds 
+[7B[6A[1K[K
+dc22afea6082: Retrying in 4 seconds 
+[6B[8A[1K[K
+072739d44e4f: Retrying in 3 seconds 
+[8B[7A[1K[K
+5111f27e9600: Retrying in 3 seconds 
+[7B[6A[1K[K
+dc22afea6082: Retrying in 3 seconds 
+[6B[8A[1K[K
+072739d44e4f: Retrying in 2 seconds 
+[8B[7A[1K[K
+5111f27e9600: Retrying in 2 seconds 
+[7B[6A[1K[K
+dc22afea6082: Retrying in 2 seconds 
+[6B[8A[1K[K
+072739d44e4f: Retrying in 1 second 
+[8B[7A[1K[K
+5111f27e9600: Retrying in 1 second 
+[7B[6A[1K[K
+dc22afea6082: Retrying in 1 second 
+[6B[7A[1K[K
+5111f27e9600: Downloading  4.341MB/4.341MB
+[7B[8A[1K[K
+072739d44e4f: Downloading  10.75MB/10.75MB
+[8B[4A[1K[K
+bca65cadbc25: Downloading  4.171kB/4.171kB
+[4B[4A[1K[K
+bca65cadbc25: Retrying in 5 seconds 
+[4B[5A[1K[K
+0ad0b403cda0: Retrying in 5 seconds 
+[5B[6A[1K[K
+dc22afea6082: Downloading  50.11MB/50.11MB
+[6B[3A[1K[K
+c1e57ccc1a03: Downloading  245.8kB/23.99MB
+[3B[3A[1K[K
+c1e57ccc1a03: Downloading  14.99MB/23.99MB
+[3B[3A[1K[K
+c1e57ccc1a03: Verifying Checksum 
+[3B[3A[1K[K
+c1e57ccc1a03: Download complete 
+[3B[2A[1K[K
+2571476d0e73: Downloading  29.58kB/2.375MB
+[2B[2A[1K[K
+2571476d0e73: Downloading  2.375MB/2.375MB
+[2B[2A[1K[K
+2571476d0e73: Verifying Checksum 
+[2B[2A[1K[K
+2571476d0e73: Download complete 
+[2B[1A[1K[K
+e3719000bb2c: Downloading     293B/293B
+[1B[1A[1K[K
+e3719000bb2c: Verifying Checksum 
+[1B[1A[1K[K
+e3719000bb2c: Download complete 
+[1B[4A[1K[K
+bca65cadbc25: Retrying in 4 seconds 
+[4B[5A[1K[K
+0ad0b403cda0: Retrying in 4 seconds 
+[5B[4A[1K[K
+bca65cadbc25: Retrying in 3 seconds 
+[4B[5A[1K[K
+0ad0b403cda0: Retrying in 3 seconds 
+[5B[4A[1K[K
+bca65cadbc25: Retrying in 2 seconds 
+[4B[5A[1K[K
+0ad0b403cda0: Retrying in 2 seconds 
+[5B[4A[1K[K
+bca65cadbc25: Retrying in 1 second 
+[4B[5A[1K[K
+0ad0b403cda0: Retrying in 1 second 
+[5B[5A[1K[K
+0ad0b403cda0: Downloading  214.3MB/214.3MB
+[5B[5A[1K[K
+0ad0b403cda0: Retrying in 10 seconds 
+[5B[4A[1K[K
+bca65cadbc25: Downloading  4.171kB/4.171kB
+[4B[4A[1K[K
+bca65cadbc25: Retrying in 10 seconds 
+[4B[5A[1K[K
+0ad0b403cda0: Retrying in 9 seconds 
+[5B[4A[1K[K
+bca65cadbc25: Retrying in 9 seconds 
+[4B[5A[1K[K
+0ad0b403cda0: Retrying in 8 seconds 
+[5B[4A[1K[K
+bca65cadbc25: Retrying in 8 seconds 
+[4B[5A[1K[K
+0ad0b403cda0: Retrying in 7 seconds 
+[5B[4A[1K[K
+bca65cadbc25: Retrying in 7 seconds 
+[4B[5A[1K[K
+0ad0b403cda0: Retrying in 6 seconds 
+[5B[4A[1K[K
+bca65cadbc25: Retrying in 6 seconds 
+[4B[5A[1K[K
+0ad0b403cda0: Retrying in 5 seconds 
+[5B[4A[1K[K
+bca65cadbc25: Retrying in 5 seconds 
+[4B[5A[1K[K
+0ad0b403cda0: Retrying in 4 seconds 
+[5B[4A[1K[K
+bca65cadbc25: Retrying in 4 seconds 
+[4B[5A[1K[K
+0ad0b403cda0: Retrying in 3 seconds 
+[5B[4A[1K[K
+bca65cadbc25: Retrying in 3 seconds 
+[4B[5A[1K[K
+0ad0b403cda0: Retrying in 2 seconds 
+[5B[4A[1K[K
+bca65cadbc25: Retrying in 2 seconds 
+[4B[5A[1K[K
+0ad0b403cda0: Retrying in 1 second 
+[5B[4A[1K[K
+bca65cadbc25: Retrying in 1 second 
+[4B[4A[1K[K
+bca65cadbc25: Downloading  4.171kB/4.171kB
+[4B[5A[1K[K
+0ad0b403cda0: Downloading  214.3MB/214.3MB
+[5B[5A[1K[K
+0ad0b403cda0: Retrying in 15 seconds 
+[5B[4A[1K[K
+bca65cadbc25: Retrying in 15 seconds 
+[4B[5A[1K[K
+0ad0b403cda0: Retrying in 14 seconds 
+[5B[4A[1K[K
+bca65cadbc25: Retrying in 14 seconds 
+[4B[4A[1K[K
+bca65cadbc25: Retrying in 13 seconds 
+[4B[5A[1K[K
+0ad0b403cda0: Retrying in 13 seconds 
+[5B[5A[1K[K
+0ad0b403cda0: Retrying in 12 seconds 
+[5B[4A[1K[K
+bca65cadbc25: Retrying in 12 seconds 
+[4B[5A[1K[K
+0ad0b403cda0: Retrying in 11 seconds 
+[5B[4A[1K[K
+bca65cadbc25: Retrying in 11 seconds 
+[4B[5A[1K[K
+0ad0b403cda0: Retrying in 10 seconds 
+[5B[4A[1K[K
+bca65cadbc25: Retrying in 10 seconds 
+[4B[5A[1K[K
+0ad0b403cda0: Retrying in 9 seconds 
+[5B[4A[1K[K
+bca65cadbc25: Retrying in 9 seconds 
+[4B[5A[1K[K
+0ad0b403cda0: Retrying in 8 seconds 
+[5B[4A[1K[K
+bca65cadbc25: Retrying in 8 seconds 
+[4B[5A[1K[K
+0ad0b403cda0: Retrying in 7 seconds 
+[5B[4A[1K[K
+bca65cadbc25: Retrying in 7 seconds 
+[4B[4A[1K[K
+bca65cadbc25: Retrying in 6 seconds 
+[4B[5A[1K[K
+0ad0b403cda0: Retrying in 6 seconds 
+[5B[5A[1K[K
+0ad0b403cda0: Retrying in 5 seconds 
+[5B[4A[1K[K
+bca65cadbc25: Retrying in 5 seconds 
+[4B[4A[1K[K
+bca65cadbc25: Retrying in 4 seconds 
+[4B[5A[1K[K
+0ad0b403cda0: Retrying in 4 seconds 
+[5B[5A[1K[K
+0ad0b403cda0: Retrying in 3 seconds 
+[5B[4A[1K[K
+bca65cadbc25: Retrying in 3 seconds 
+[4B[4A[1K[K
+bca65cadbc25: Retrying in 2 seconds 
+[4B[5A[1K[K
+0ad0b403cda0: Retrying in 2 seconds 
+[5B[5A[1K[K
+0ad0b403cda0: Retrying in 1 second 
+[5B[4A[1K[K
+bca65cadbc25: Retrying in 1 second 
+[4B[5A[1K[K
+0ad0b403cda0: Downloading  214.3MB/214.3MB
+[5B[4A[1K[K
+bca65cadbc25: Downloading  4.171kB/4.171kB
+[4B[5A[1K[K
+0ad0b403cda0: Retrying in 20 seconds 
+[5B[4A[1K[K
+bca65cadbc25: Retrying in 20 seconds 
+[4B[5A[1K[K
+0ad0b403cda0: Retrying in 19 seconds 
+[5B[4A[1K[K
+bca65cadbc25: Retrying in 19 seconds 
+[4B[5A[1K[K
+0ad0b403cda0: Retrying in 18 seconds 
+[5B[4A[1K[K
+bca65cadbc25: Retrying in 18 seconds 
+[4B[5A[1K[K
+0ad0b403cda0: Retrying in 17 seconds 
+[5B[4A[1K[K
+bca65cadbc25: Retrying in 17 seconds 
+[4B[5A[1K[K
+0ad0b403cda0: Retrying in 16 seconds 
+[5B[4A[1K[K
+bca65cadbc25: Retrying in 16 seconds 
+[4B[5A[1K[K
+0ad0b403cda0: Retrying in 15 seconds 
+[5B[4A[1K[K
+bca65cadbc25: Retrying in 15 seconds 
+[4B[5A[1K[K
+0ad0b403cda0: Retrying in 14 seconds 
+[5B[4A[1K[K
+bca65cadbc25: Retrying in 14 seconds 
+[4B[5A[1K[K
+0ad0b403cda0: Retrying in 13 seconds 
+[5B[4A[1K[K
+bca65cadbc25: Retrying in 13 seconds 
+[4B[5A[1K[K
+0ad0b403cda0: Retrying in 12 seconds 
+[5B[4A[1K[K
+bca65cadbc25: Retrying in 12 seconds 
+[4B[5A[1K[K
+0ad0b403cda0: Retrying in 11 seconds 
+[5B[4A[1K[K
+bca65cadbc25: Retrying in 11 seconds 
+[4B[5A[1K[K
+0ad0b403cda0: Retrying in 10 seconds 
+[5B[4A[1K[K
+bca65cadbc25: Retrying in 10 seconds 
+[4B[5A[1K[K
+0ad0b403cda0: Retrying in 9 seconds 
+[5B[4A[1K[K
+bca65cadbc25: Retrying in 9 seconds 
+[4B[5A[1K[K
+0ad0b403cda0: Retrying in 8 seconds 
+[5B[4A[1K[K
+bca65cadbc25: Retrying in 8 seconds 
+[4B[5A[1K[K
+0ad0b403cda0: Retrying in 7 seconds 
+[5B[4A[1K[K
+bca65cadbc25: Retrying in 7 seconds 
+[4B[5A[1K[K
+0ad0b403cda0: Retrying in 6 seconds 
+[5B[4A[1K[K
+bca65cadbc25: Retrying in 6 seconds 
+[4B[5A[1K[K
+0ad0b403cda0: Retrying in 5 seconds 
+[5B[4A[1K[K
+bca65cadbc25: Retrying in 5 seconds 
+[4B[5A[1K[K
+0ad0b403cda0: Retrying in 4 seconds 
+[5B[4A[1K[K
+bca65cadbc25: Retrying in 4 seconds 
+[4B[5A[1K[K
+0ad0b403cda0: Retrying in 3 seconds 
+[5B[4A[1K[K
+bca65cadbc25: Retrying in 3 seconds 
+[4B[5A[1K[K
+0ad0b403cda0: Retrying in 2 seconds 
+[5B[4A[1K[K
+bca65cadbc25: Retrying in 2 seconds 
+[4B[5A[1K[K
+0ad0b403cda0: Retrying in 1 second 
+[5B[4A[1K[K
+bca65cadbc25: Retrying in 1 second 
+[4B[4A[1K[K
+bca65cadbc25: Downloading  4.171kB/4.171kB
+[4B[5A[1K[K
+0ad0b403cda0: Downloading  214.3MB/214.3MB
+[5B12.20.0: Pulling from library/node
+
+[1A[1K[K
+22f9b9782fc3: Pulling fs layer 
+[1B
+[1A[1K[K
+072739d44e4f: Pulling fs layer 
+[1B
+[1A[1K[K
+5111f27e9600: Pulling fs layer 
+[1B
+[1A[1K[K
+dc22afea6082: Pulling fs layer 
+[1B
+[1A[1K[K
+0ad0b403cda0: Pulling fs layer 
+[1B
+[1A[1K[K
+bca65cadbc25: Pulling fs layer 
+[1B
+[1A[1K[K
+c1e57ccc1a03: Pulling fs layer 
+[1B
+[1A[1K[K
+2571476d0e73: Pulling fs layer 
+[1B
+[1A[1K[K
+e3719000bb2c: Pulling fs layer 
+[1B[4A[1K[K
+bca65cadbc25: Waiting 
+[4B[6A[1K[K
+dc22afea6082: Waiting 
+[6B[5A[1K[K
+0ad0b403cda0: Waiting 
+[5B[3A[1K[K
+c1e57ccc1a03: Waiting 
+[3B[2A[1K[K
+2571476d0e73: Waiting 
+[2B[1A[1K[K
+e3719000bb2c: Waiting 
+[1B[7A[1K[K
+5111f27e9600: Downloading  44.07kB/4.341MB
+[7B[8A[1K[K
+072739d44e4f: Downloading    110kB/10.75MB
+[8B[9A[1K[K
+22f9b9782fc3: Downloading  457.2kB/45.38MB
+[9B[7A[1K[K
+5111f27e9600: Verifying Checksum 
+[7B[7A[1K[K
+5111f27e9600: Download complete 
+[7B[8A[1K[K
+072739d44e4f: Downloading  6.536MB/10.75MB
+[8B[9A[1K[K
+22f9b9782fc3: Downloading  4.578MB/45.38MB
+[9B[8A[1K[K
+072739d44e4f: Verifying Checksum 
+[8B[8A[1K[K
+072739d44e4f: Download complete 
+[8B[9A[1K[K
+22f9b9782fc3: Downloading  12.88MB/45.38MB
+[9B[9A[1K[K
+22f9b9782fc3: Downloading  23.48MB/45.38MB
+[9B[6A[1K[K
+dc22afea6082: Downloading  507.9kB/50.11MB
+[6B[5A[1K[K
+0ad0b403cda0: Downloading  539.1kB/214.3MB
+[5B[6A[1K[K
+dc22afea6082: Downloading   4.57MB/50.11MB
+[6B[9A[1K[K
+22f9b9782fc3: Downloading  32.24MB/45.38MB
+[9B[5A[1K[K
+0ad0b403cda0: Downloading  4.832MB/214.3MB
+[5B[9A[1K[K
+22f9b9782fc3: Downloading  37.76MB/45.38MB
+[9B[6A[1K[K
+dc22afea6082: Downloading  14.77MB/50.11MB
+[6B[5A[1K[K
+0ad0b403cda0: Downloading  9.092MB/214.3MB
+[5B[6A[1K[K
+dc22afea6082: Downloading  23.44MB/50.11MB
+[6B[9A[1K[K
+22f9b9782fc3: Verifying Checksum 
+[9B[9A[1K[K
+22f9b9782fc3: Download complete 
+[9B[9A[1K[K
+22f9b9782fc3: Extracting  458.8kB/45.38MB
+[9B[5A[1K[K
+0ad0b403cda0: Downloading  17.67MB/214.3MB
+[5B[6A[1K[K
+dc22afea6082: Downloading  29.57MB/50.11MB
+[6B[9A[1K[K
+22f9b9782fc3: Extracting  1.835MB/45.38MB
+[9B[6A[1K[K
+dc22afea6082: Downloading  41.26MB/50.11MB
+[6B[5A[1K[K
+0ad0b403cda0: Downloading  22.49MB/214.3MB
+[5B[6A[1K[K
+dc22afea6082: Verifying Checksum 
+[6B[6A[1K[K
+dc22afea6082: Download complete 
+[6B[9A[1K[K
+22f9b9782fc3: Extracting  3.211MB/45.38MB
+[9B[5A[1K[K
+0ad0b403cda0: Downloading  27.32MB/214.3MB
+[5B[4A[1K[K
+bca65cadbc25: Downloading     423B/4.171kB
+[4B[4A[1K[K
+bca65cadbc25: Downloading  4.171kB/4.171kB
+[4B[4A[1K[K
+bca65cadbc25: Verifying Checksum 
+[4B[4A[1K[K
+bca65cadbc25: Download complete 
+[4B[9A[1K[K
+22f9b9782fc3: Extracting  5.046MB/45.38MB
+[9B[5A[1K[K
+0ad0b403cda0: Downloading  40.74MB/214.3MB
+[5B[9A[1K[K
+22f9b9782fc3: Extracting   7.34MB/45.38MB
+[9B[5A[1K[K
+0ad0b403cda0: Downloading  51.45MB/214.3MB
+[5B[3A[1K[K
+c1e57ccc1a03: Downloading  249.5kB/23.99MB
+[3B[2A[1K[K
+2571476d0e73: Downloading  25.06kB/2.375MB
+[2B[5A[1K[K
+0ad0b403cda0: Downloading  64.29MB/214.3MB
+[5B[9A[1K[K
+22f9b9782fc3: Extracting  8.716MB/45.38MB
+[9B[3A[1K[K
+c1e57ccc1a03: Downloading  2.223MB/23.99MB
+[3B[9A[1K[K
+22f9b9782fc3: Extracting  10.55MB/45.38MB
+[9B[5A[1K[K
+0ad0b403cda0: Downloading  74.44MB/214.3MB
+[5B[2A[1K[K
+2571476d0e73: Downloading  481.8kB/2.375MB
+[2B[3A[1K[K
+c1e57ccc1a03: Downloading   3.21MB/23.99MB
+[3B[5A[1K[K
+0ad0b403cda0: Downloading  81.93MB/214.3MB
+[5B[9A[1K[K
+22f9b9782fc3: Extracting  12.85MB/45.38MB
+[9B[2A[1K[K
+2571476d0e73: Downloading  1.948MB/2.375MB
+[2B[2A[1K[K
+2571476d0e73: Verifying Checksum 
+[2B[2A[1K[K
+2571476d0e73: Download complete 
+[2B[3A[1K[K
+c1e57ccc1a03: Downloading  3.701MB/23.99MB
+[3B[5A[1K[K
+0ad0b403cda0: Downloading   92.6MB/214.3MB
+[5B[9A[1K[K
+22f9b9782fc3: Extracting  14.68MB/45.38MB
+[9B[3A[1K[K
+c1e57ccc1a03: Downloading  4.684MB/23.99MB
+[3B[5A[1K[K
+0ad0b403cda0: Downloading  100.1MB/214.3MB
+[5B[9A[1K[K
+22f9b9782fc3: Extracting  16.52MB/45.38MB
+[9B[3A[1K[K
+c1e57ccc1a03: Downloading  7.633MB/23.99MB
+[3B[5A[1K[K
+0ad0b403cda0: Downloading  110.8MB/214.3MB
+[5B[1A[1K[K
+e3719000bb2c: Downloading     293B/293B
+[1B[1A[1K[K
+e3719000bb2c: Verifying Checksum 
+[1B[1A[1K[K
+e3719000bb2c: Download complete 
+[1B[9A[1K[K
+22f9b9782fc3: Extracting  18.35MB/45.38MB
+[9B[3A[1K[K
+c1e57ccc1a03: Downloading  12.35MB/23.99MB
+[3B[5A[1K[K
+0ad0b403cda0: Downloading  119.9MB/214.3MB
+[5B[3A[1K[K
+c1e57ccc1a03: Downloading  17.25MB/23.99MB
+[3B[9A[1K[K
+22f9b9782fc3: Extracting  20.64MB/45.38MB
+[9B[5A[1K[K
+0ad0b403cda0: Downloading  125.2MB/214.3MB
+[5B[5A[1K[K
+0ad0b403cda0: Downloading    137MB/214.3MB
+[5B[9A[1K[K
+22f9b9782fc3: Extracting   21.1MB/45.38MB
+[9B[3A[1K[K
+c1e57ccc1a03: Downloading  20.95MB/23.99MB
+[3B[3A[1K[K
+c1e57ccc1a03: Verifying Checksum 
+[3B[3A[1K[K
+c1e57ccc1a03: Download complete 
+[3B[5A[1K[K
+0ad0b403cda0: Downloading  147.7MB/214.3MB
+[5B[9A[1K[K
+22f9b9782fc3: Extracting  22.48MB/45.38MB
+[9B[5A[1K[K
+0ad0b403cda0: Downloading  157.4MB/214.3MB
+[5B[9A[1K[K
+22f9b9782fc3: Extracting  27.53MB/45.38MB
+[9B[5A[1K[K
+0ad0b403cda0: Downloading  168.6MB/214.3MB
+[5B[9A[1K[K
+22f9b9782fc3: Extracting   31.2MB/45.38MB
+[9B[5A[1K[K
+0ad0b403cda0: Downloading  176.6MB/214.3MB
+[5B[9A[1K[K
+22f9b9782fc3: Extracting  33.03MB/45.38MB
+[9B[5A[1K[K
+0ad0b403cda0: Downloading  189.5MB/214.3MB
+[5B[9A[1K[K
+22f9b9782fc3: Extracting  34.41MB/45.38MB
+[9B[5A[1K[K
+0ad0b403cda0: Downloading  195.4MB/214.3MB
+[5B[9A[1K[K
+22f9b9782fc3: Extracting  36.24MB/45.38MB
+[9B[5A[1K[K
+0ad0b403cda0: Downloading  195.9MB/214.3MB
+[5B[9A[1K[K
+22f9b9782fc3: Extracting  38.54MB/45.38MB
+[9B[5A[1K[K
+0ad0b403cda0: Downloading  198.1MB/214.3MB
+[5B[9A[1K[K
+22f9b9782fc3: Extracting  40.83MB/45.38MB
+[9B[5A[1K[K
+0ad0b403cda0: Downloading  201.3MB/214.3MB
+[5B[9A[1K[K
+22f9b9782fc3: Extracting  42.66MB/45.38MB
+[9B[5A[1K[K
+0ad0b403cda0: Downloading  203.9MB/214.3MB
+[5B[5A[1K[K
+0ad0b403cda0: Downloading  206.6MB/214.3MB
+[5B[9A[1K[K
+22f9b9782fc3: Extracting   44.5MB/45.38MB
+[9B[5A[1K[K
+0ad0b403cda0: Verifying Checksum 
+[5B[5A[1K[K
+0ad0b403cda0: Download complete 
+[5B[9A[1K[K
+22f9b9782fc3: Extracting  45.38MB/45.38MB
+[9B[9A[1K[K
+22f9b9782fc3: Pull complete 
+[9B[8A[1K[K
+072739d44e4f: Extracting  131.1kB/10.75MB
+[8B[8A[1K[K
+072739d44e4f: Extracting  3.146MB/10.75MB
+[8B[8A[1K[K
+072739d44e4f: Extracting  5.898MB/10.75MB
+[8B[8A[1K[K
+072739d44e4f: Extracting  8.913MB/10.75MB
+[8B[8A[1K[K
+072739d44e4f: Extracting  10.75MB/10.75MB
+[8B[8A[1K[K
+072739d44e4f: Extracting  10.75MB/10.75MB
+[8B[8A[1K[K
+072739d44e4f: Pull complete 
+[8B[7A[1K[K
+5111f27e9600: Extracting  65.54kB/4.341MB
+[7B[7A[1K[K
+5111f27e9600: Extracting  1.638MB/4.341MB
+[7B[7A[1K[K
+5111f27e9600: Extracting  4.341MB/4.341MB
+[7B[7A[1K[K
+5111f27e9600: Pull complete 
+[7B[6A[1K[K
+dc22afea6082: Extracting  524.3kB/50.11MB
+[6B[6A[1K[K
+dc22afea6082: Extracting   3.67MB/50.11MB
+[6B[6A[1K[K
+dc22afea6082: Extracting  6.291MB/50.11MB
+[6B[6A[1K[K
+dc22afea6082: Extracting  9.437MB/50.11MB
+[6B[6A[1K[K
+dc22afea6082: Extracting  12.58MB/50.11MB
+[6B[6A[1K[K
+dc22afea6082: Extracting  15.73MB/50.11MB
+[6B[6A[1K[K
+dc22afea6082: Extracting  17.83MB/50.11MB
+[6B[6A[1K[K
+dc22afea6082: Extracting   19.4MB/50.11MB
+[6B[6A[1K[K
+dc22afea6082: Extracting  20.97MB/50.11MB
+[6B[6A[1K[K
+dc22afea6082: Extracting  22.54MB/50.11MB
+[6B[6A[1K[K
+dc22afea6082: Extracting  24.12MB/50.11MB
+[6B[6A[1K[K
+dc22afea6082: Extracting  26.21MB/50.11MB
+[6B[6A[1K[K
+dc22afea6082: Extracting  27.79MB/50.11MB
+[6B[6A[1K[K
+dc22afea6082: Extracting  30.41MB/50.11MB
+[6B[6A[1K[K
+dc22afea6082: Extracting  31.98MB/50.11MB
+[6B[6A[1K[K
+dc22afea6082: Extracting   34.6MB/50.11MB
+[6B[6A[1K[K
+dc22afea6082: Extracting  36.18MB/50.11MB
+[6B[6A[1K[K
+dc22afea6082: Extracting  39.85MB/50.11MB
+[6B[6A[1K[K
+dc22afea6082: Extracting  42.47MB/50.11MB
+[6B[6A[1K[K
+dc22afea6082: Extracting  45.09MB/50.11MB
+[6B[6A[1K[K
+dc22afea6082: Extracting  46.66MB/50.11MB
+[6B[6A[1K[K
+dc22afea6082: Extracting  48.23MB/50.11MB
+[6B[6A[1K[K
+dc22afea6082: Extracting  49.81MB/50.11MB
+[6B[6A[1K[K
+dc22afea6082: Extracting  50.11MB/50.11MB
+[6B[6A[1K[K
+dc22afea6082: Pull complete 
+[6B[5A[1K[K
+0ad0b403cda0: Extracting  557.1kB/214.3MB
+[5B[5A[1K[K
+0ad0b403cda0: Extracting  3.342MB/214.3MB
+[5B[5A[1K[K
+0ad0b403cda0: Extracting  6.128MB/214.3MB
+[5B[5A[1K[K
+0ad0b403cda0: Extracting  8.913MB/214.3MB
+[5B[5A[1K[K
+0ad0b403cda0: Extracting  10.03MB/214.3MB
+[5B[5A[1K[K
+0ad0b403cda0: Extracting  11.14MB/214.3MB
+[5B[5A[1K[K
+0ad0b403cda0: Extracting  12.26MB/214.3MB
+[5B[5A[1K[K
+0ad0b403cda0: Extracting  13.37MB/214.3MB
+[5B[5A[1K[K
+0ad0b403cda0: Extracting  15.04MB/214.3MB
+[5B[5A[1K[K
+0ad0b403cda0: Extracting  16.71MB/214.3MB
+[5B[5A[1K[K
+0ad0b403cda0: Extracting   19.5MB/214.3MB
+[5B[5A[1K[K
+0ad0b403cda0: Extracting  22.84MB/214.3MB
+[5B[5A[1K[K
+0ad0b403cda0: Extracting  25.62MB/214.3MB
+[5B[5A[1K[K
+0ad0b403cda0: Extracting  28.97MB/214.3MB
+[5B[5A[1K[K
+0ad0b403cda0: Extracting  32.31MB/214.3MB
+[5B[5A[1K[K
+0ad0b403cda0: Extracting  34.54MB/214.3MB
+[5B[5A[1K[K
+0ad0b403cda0: Extracting  37.32MB/214.3MB
+[5B[5A[1K[K
+0ad0b403cda0: Extracting  40.11MB/214.3MB
+[5B[5A[1K[K
+0ad0b403cda0: Extracting  43.45MB/214.3MB
+[5B[5A[1K[K
+0ad0b403cda0: Extracting  46.79MB/214.3MB
+[5B[5A[1K[K
+0ad0b403cda0: Extracting  49.02MB/214.3MB
+[5B[5A[1K[K
+0ad0b403cda0: Extracting  51.25MB/214.3MB
+[5B[5A[1K[K
+0ad0b403cda0: Extracting  52.92MB/214.3MB
+[5B[5A[1K[K
+0ad0b403cda0: Extracting  55.15MB/214.3MB
+[5B[5A[1K[K
+0ad0b403cda0: Extracting  56.82MB/214.3MB
+[5B[5A[1K[K
+0ad0b403cda0: Extracting  59.05MB/214.3MB
+[5B[5A[1K[K
+0ad0b403cda0: Extracting  61.83MB/214.3MB
+[5B[5A[1K[K
+0ad0b403cda0: Extracting  64.62MB/214.3MB
+[5B[5A[1K[K
+0ad0b403cda0: Extracting   67.4MB/214.3MB
+[5B[5A[1K[K
+0ad0b403cda0: Extracting  69.63MB/214.3MB
+[5B[5A[1K[K
+0ad0b403cda0: Extracting  72.42MB/214.3MB
+[5B[5A[1K[K
+0ad0b403cda0: Extracting   75.2MB/214.3MB
+[5B[5A[1K[K
+0ad0b403cda0: Extracting  77.99MB/214.3MB
+[5B[5A[1K[K
+0ad0b403cda0: Extracting  80.77MB/214.3MB
+[5B[5A[1K[K
+0ad0b403cda0: Extracting  83.56MB/214.3MB
+[5B[5A[1K[K
+0ad0b403cda0: Extracting   86.9MB/214.3MB
+[5B[5A[1K[K
+0ad0b403cda0: Extracting  89.69MB/214.3MB
+[5B[5A[1K[K
+0ad0b403cda0: Extracting  93.03MB/214.3MB
+[5B[5A[1K[K
+0ad0b403cda0: Extracting  95.81MB/214.3MB
+[5B[5A[1K[K
+0ad0b403cda0: Extracting  99.16MB/214.3MB
+[5B[5A[1K[K
+0ad0b403cda0: Extracting  102.5MB/214.3MB
+[5B[5A[1K[K
+0ad0b403cda0: Extracting  105.3MB/214.3MB
+[5B[5A[1K[K
+0ad0b403cda0: Extracting  107.5MB/214.3MB
+[5B[5A[1K[K
+0ad0b403cda0: Extracting  109.7MB/214.3MB
+[5B[5A[1K[K
+0ad0b403cda0: Extracting    112MB/214.3MB
+[5B[5A[1K[K
+0ad0b403cda0: Extracting  114.2MB/214.3MB
+[5B[5A[1K[K
+0ad0b403cda0: Extracting    117MB/214.3MB
+[5B[5A[1K[K
+0ad0b403cda0: Extracting  119.2MB/214.3MB
+[5B[5A[1K[K
+0ad0b403cda0: Extracting  121.4MB/214.3MB
+[5B[5A[1K[K
+0ad0b403cda0: Extracting  123.7MB/214.3MB
+[5B[5A[1K[K
+0ad0b403cda0: Extracting  126.5MB/214.3MB
+[5B[5A[1K[K
+0ad0b403cda0: Extracting  129.2MB/214.3MB
+[5B[5A[1K[K
+0ad0b403cda0: Extracting  131.5MB/214.3MB
+[5B[5A[1K[K
+0ad0b403cda0: Extracting  133.7MB/214.3MB
+[5B[5A[1K[K
+0ad0b403cda0: Extracting  136.5MB/214.3MB
+[5B[5A[1K[K
+0ad0b403cda0: Extracting  139.3MB/214.3MB
+[5B[5A[1K[K
+0ad0b403cda0: Extracting  140.9MB/214.3MB
+[5B[5A[1K[K
+0ad0b403cda0: Extracting  144.8MB/214.3MB
+[5B[5A[1K[K
+0ad0b403cda0: Extracting  150.4MB/214.3MB
+[5B[5A[1K[K
+0ad0b403cda0: Extracting  154.3MB/214.3MB
+[5B[5A[1K[K
+0ad0b403cda0: Extracting    161MB/214.3MB
+[5B[5A[1K[K
+0ad0b403cda0: Extracting  169.9MB/214.3MB
+[5B[5A[1K[K
+0ad0b403cda0: Extracting  174.9MB/214.3MB
+[5B[5A[1K[K
+0ad0b403cda0: Extracting  179.4MB/214.3MB
+[5B[5A[1K[K
+0ad0b403cda0: Extracting  182.7MB/214.3MB
+[5B[5A[1K[K
+0ad0b403cda0: Extracting  183.8MB/214.3MB
+[5B[5A[1K[K
+0ad0b403cda0: Extracting  184.4MB/214.3MB
+[5B[5A[1K[K
+0ad0b403cda0: Extracting  187.7MB/214.3MB
+[5B[5A[1K[K
+0ad0b403cda0: Extracting  192.2MB/214.3MB
+[5B[5A[1K[K
+0ad0b403cda0: Extracting  193.3MB/214.3MB
+[5B[5A[1K[K
+0ad0b403cda0: Extracting  195.5MB/214.3MB
+[5B[5A[1K[K
+0ad0b403cda0: Extracting  197.8MB/214.3MB
+[5B[5A[1K[K
+0ad0b403cda0: Extracting    200MB/214.3MB
+[5B[5A[1K[K
+0ad0b403cda0: Extracting  202.2MB/214.3MB
+[5B[5A[1K[K
+0ad0b403cda0: Extracting  204.4MB/214.3MB
+[5B[5A[1K[K
+0ad0b403cda0: Extracting  206.7MB/214.3MB
+[5B[5A[1K[K
+0ad0b403cda0: Extracting  208.9MB/214.3MB
+[5B[5A[1K[K
+0ad0b403cda0: Extracting  211.1MB/214.3MB
+[5B[5A[1K[K
+0ad0b403cda0: Extracting  212.2MB/214.3MB
+[5B[5A[1K[K
+0ad0b403cda0: Extracting  213.4MB/214.3MB
+[5B[5A[1K[K
+0ad0b403cda0: Extracting  214.3MB/214.3MB
+[5B[5A[1K[K
+0ad0b403cda0: Pull complete 
+[5B[4A[1K[K
+bca65cadbc25: Extracting  4.171kB/4.171kB
+[4B[4A[1K[K
+bca65cadbc25: Extracting  4.171kB/4.171kB
+[4B[4A[1K[K
+bca65cadbc25: Pull complete 
+[4B[3A[1K[K
+c1e57ccc1a03: Extracting  262.1kB/23.99MB
+[3B[3A[1K[K
+c1e57ccc1a03: Extracting  3.146MB/23.99MB
+[3B[3A[1K[K
+c1e57ccc1a03: Extracting  6.029MB/23.99MB
+[3B[3A[1K[K
+c1e57ccc1a03: Extracting  9.175MB/23.99MB
+[3B[3A[1K[K
+c1e57ccc1a03: Extracting   11.8MB/23.99MB
+[3B[3A[1K[K
+c1e57ccc1a03: Extracting  14.68MB/23.99MB
+[3B[3A[1K[K
+c1e57ccc1a03: Extracting  17.04MB/23.99MB
+[3B[3A[1K[K
+c1e57ccc1a03: Extracting  17.83MB/23.99MB
+[3B[3A[1K[K
+c1e57ccc1a03: Extracting  19.66MB/23.99MB
+[3B[3A[1K[K
+c1e57ccc1a03: Extracting  20.71MB/23.99MB
+[3B[3A[1K[K
+c1e57ccc1a03: Extracting   21.5MB/23.99MB
+[3B[3A[1K[K
+c1e57ccc1a03: Extracting  22.28MB/23.99MB
+[3B[3A[1K[K
+c1e57ccc1a03: Extracting  23.33MB/23.99MB
+[3B[3A[1K[K
+c1e57ccc1a03: Extracting  23.99MB/23.99MB
+[3B[3A[1K[K
+c1e57ccc1a03: Pull complete 
+[3B[2A[1K[K
+2571476d0e73: Extracting  32.77kB/2.375MB
+[2B[2A[1K[K
+2571476d0e73: Extracting  1.311MB/2.375MB
+[2B[2A[1K[K
+2571476d0e73: Extracting  2.375MB/2.375MB
+[2B[2A[1K[K
+2571476d0e73: Pull complete 
+[2B[1A[1K[K
+e3719000bb2c: Extracting     293B/293B
+[1B[1A[1K[K
+e3719000bb2c: Extracting     293B/293B
+[1B[1A[1K[K
+e3719000bb2c: Pull complete 
+[1BDigest: sha256:710a889caacbf08f9a4528df305382091188b31a7438bf940d3c3feddc86ad8c
+Status: Downloaded newer image for node:12.20.0
+ ---> f65e5434ee1c
+Step 2/8 : WORKDIR /usr/src/api-feed
+ ---> Running in 23690a4b0403
+Removing intermediate container 23690a4b0403
+ ---> 094a7875134e
+Step 3/8 : COPY *.json ./
+ ---> 72a5d9ff3a8c
+Step 4/8 : RUN npm install
+ ---> Running in c2bedcc8342f
+
+> bcrypt@5.0.0 install /usr/src/api-feed/node_modules/bcrypt
+> node-pre-gyp install --fallback-to-build
+
+[91mnode-pre-gyp[0m[91m [0m[91mWARN Using needle for node-pre-gyp https download 
+[0m[bcrypt] Success: "/usr/src/api-feed/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node" is installed via remote
+[91mnpm WARN udagram-api@2.0.0 No description
+[0m[91mnpm WARN udagram-api@2.0.0 No repository field.
+[0m[91mnpm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.1.3 (node_modules/fsevents):
+[0m[91mnpm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.1.3: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+[0m[91m
+[0madded 499 packages from 1089 contributors and audited 503 packages in 9.147s
+
+41 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+Removing intermediate container c2bedcc8342f
+ ---> 8471344a653e
+Step 5/8 : COPY . ./
+ ---> 272369c8dbfd
+Step 6/8 : ENV PORT=8080
+ ---> Running in 110681dc913c
+Removing intermediate container 110681dc913c
+ ---> 60953d0f26c4
+Step 7/8 : EXPOSE 8080
+ ---> Running in 9b0d24eb8b68
+Removing intermediate container 9b0d24eb8b68
+ ---> 8a1b341b4b95
+Step 8/8 : CMD ["npm", "run", "dev"]
+ ---> Running in d841d48ad8fe
+Removing intermediate container d841d48ad8fe
+ ---> df07f18d2e78
+Successfully built df07f18d2e78
+Successfully tagged udagram-api-feed:latest
+travis_time:end:02026be7:start=1612370819357116821,finish=1612370958286075719,duration=138928958898,event=script
+[0K[32;1mThe command "docker build -t udagram-api-feed ./udagram-api-feed" exited with 0.[0m
+travis_time:start:0dee0c34
+[0K$ docker tag udagram-api-feed benjdaun3k900/udagram-api-feed:latest
+travis_time:end:0dee0c34:start=1612370958290125536,finish=1612370958351649366,duration=61523830,event=script
+[0K[32;1mThe command "docker tag udagram-api-feed benjdaun3k900/udagram-api-feed:latest" exited with 0.[0m
+travis_time:start:08139231
+[0K$ docker build -t udagram-api-users ./udagram-api-users
+Sending build context to Docker daemon  202.8kB
+
+
+Step 1/8 : FROM node:12.20.0
+ ---> f65e5434ee1c
+Step 2/8 : WORKDIR /usr/src/api-feed
+ ---> Using cache
+ ---> 094a7875134e
+Step 3/8 : COPY *.json ./
+ ---> Using cache
+ ---> 72a5d9ff3a8c
+Step 4/8 : RUN npm install
+ ---> Using cache
+ ---> 8471344a653e
+Step 5/8 : COPY . ./
+ ---> aeac221f9e1f
+Step 6/8 : ENV PORT=8081
+ ---> Running in 8477b26d2210
+Removing intermediate container 8477b26d2210
+ ---> aeebc86c7aa8
+Step 7/8 : EXPOSE 8081
+ ---> Running in d1846cfcbdd9
+Removing intermediate container d1846cfcbdd9
+ ---> 53cf35a5229e
+Step 8/8 : CMD ["npm", "run", "dev"]
+ ---> Running in 2ac1788bbaa2
+Removing intermediate container 2ac1788bbaa2
+ ---> ad70528eea2c
+Successfully built ad70528eea2c
+Successfully tagged udagram-api-users:latest
+travis_time:end:08139231:start=1612370958355554788,finish=1612370959105699629,duration=750144841,event=script
+[0K[32;1mThe command "docker build -t udagram-api-users ./udagram-api-users" exited with 0.[0m
+travis_time:start:0201eb16
+[0K$ docker tag udagram-api-users benjdaun3k900/udagram-api-users:latest
+travis_time:end:0201eb16:start=1612370959109833435,finish=1612370959170749531,duration=60916096,event=script
+[0K[32;1mThe command "docker tag udagram-api-users benjdaun3k900/udagram-api-users:latest" exited with 0.[0m
+travis_time:start:0e1615d0
+[0K$ docker build -t udagram-frontend ./udagram-frontend
+Sending build context to Docker daemon  557.1kB
+Sending build context to Docker daemon  610.8kB
+
+
+Step 1/10 : FROM node:12.20.0
+ ---> f65e5434ee1c
+Step 2/10 : WORKDIR /usr/src/frontend
+ ---> Running in 78feb12c4c68
+Removing intermediate container 78feb12c4c68
+ ---> 8cf28a66eed3
+Step 3/10 : COPY *.json ./
+ ---> 6e495587b3a4
+Step 4/10 : RUN npm install -g ionic
+ ---> Running in fae9ea033c73
+[91mnpm [0m[91mWARN deprecated ionic@5.4.16: The Ionic CLI now uses âœ¨ @ionic/cli âœ¨ for its package name! ðŸ‘‰ https://twitter.com/ionicframework/status/1223268498362851330
+[0m/usr/local/bin/ionic -> /usr/local/lib/node_modules/ionic/bin/ionic
++ ionic@5.4.16
+added 225 packages from 149 contributors in 12.649s
+Removing intermediate container fae9ea033c73
+ ---> 8de039d3846a
+Step 5/10 : RUN npm install
+ ---> Running in aafaf6b2fd0d
+
+> core-js@3.6.4 postinstall /usr/src/frontend/node_modules/@angular-devkit/build-angular/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+[96mThank you for using core-js ([94m https://github.com/zloirock/core-js [96m) for polyfilling JavaScript standard library![0m
+
+[96mThe project needs your help! Please consider supporting of core-js on Open Collective or Patreon: [0m
+[96m>[94m https://opencollective.com/core-js [0m
+[96m>[94m https://www.patreon.com/zloirock [0m
+
+[96mAlso, the author of core-js ([94m https://github.com/zloirock [96m) is looking for a good job -)[0m
+
+
+> core-js@2.6.12 postinstall /usr/src/frontend/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+[96mThank you for using core-js ([94m https://github.com/zloirock/core-js [96m) for polyfilling JavaScript standard library![0m
+
+[96mThe project needs your help! Please consider supporting of core-js on Open Collective or Patreon: [0m
+[96m>[94m https://opencollective.com/core-js [0m
+[96m>[94m https://www.patreon.com/zloirock [0m
+
+[96mAlso, the author of core-js ([94m https://github.com/zloirock [96m) is looking for a good job -)[0m
+
+
+> @angular/cli@8.3.29 postinstall /usr/src/frontend/node_modules/@angular/cli
+> node ./bin/postinstall/script.js
+
+[91mnpm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.1.3 (node_modules/watchpack/node_modules/fsevents):
+npm [0m[91mWARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.1.3: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+[0m[91mnpm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.13 (node_modules/fsevents):
+npm WARN notsup[0m[91m SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.13: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+[0m[91m
+[0madded 1311 packages from 1053 contributors and audited 1319 packages in 26.183s
+
+59 packages are looking for funding
+  run `npm fund` for details
+
+found 6 low severity vulnerabilities
+  run `npm audit fix` to fix them, or `npm audit` for details
+Removing intermediate container aafaf6b2fd0d
+ ---> 84dc768beac9
+Step 6/10 : COPY . ./
+ ---> 1d12d59cafd1
+Step 7/10 : RUN ionic build
+ ---> Running in 01858b8222f1
+> ng run app:build
+
+chunk {0} 0.js, 0.js.map () 15.4 kB  [rendered]
+chunk {1} 1.js, 1.js.map () 15.2 kB  [rendered]
+chunk {2} 2.js, 2.js.map () 16.3 kB  [rendered]
+chunk {3} 3.js, 3.js.map () 21.8 kB  [rendered]
+chunk {4} 4.js, 4.js.map () 18.9 kB  [rendered]
+chunk {5} 5.js, 5.js.map () 32.5 kB  [rendered]
+chunk {6} 6.js, 6.js.map () 32.5 kB  [rendered]
+chunk {7} 7.js, 7.js.map () 70.3 kB  [rendered]
+chunk {8} 8.js, 8.js.map () 69.1 kB  [rendered]
+chunk {9} 9.js, 9.js.map () 5.19 kB  [rendered]
+chunk {10} 10.js, 10.js.map () 5.24 kB  [rendered]
+chunk {11} 11.js, 11.js.map () 11.3 kB  [rendered]
+chunk {12} 12.js, 12.js.map () 11.9 kB  [rendered]
+chunk {13} 13.js, 13.js.map () 4.12 kB  [rendered]
+chunk {14} 14.js, 14.js.map () 4.11 kB  [rendered]
+chunk {15} 15.js, 15.js.map () 24.4 kB  [rendered]
+chunk {16} 16.js, 16.js.map () 24.6 kB  [rendered]
+chunk {17} 17.js, 17.js.map () 13.2 kB  [rendered]
+chunk {18} 18.js, 18.js.map () 12.8 kB  [rendered]
+chunk {19} 19.js, 19.js.map () 9.27 kB  [rendered]
+chunk {20} 20.js, 20.js.map () 9.39 kB  [rendered]
+chunk {21} 21.js, 21.js.map () 5.84 kB  [rendered]
+chunk {22} 22.js, 22.js.map () 5.84 kB  [rendered]
+chunk {23} 23.js, 23.js.map () 16.9 kB  [rendered]
+chunk {24} 24.js, 24.js.map () 73 kB  [rendered]
+chunk {25} 25.js, 25.js.map () 72.6 kB  [rendered]
+chunk {26} 26.js, 26.js.map () 21.2 kB  [rendered]
+chunk {27} 27.js, 27.js.map () 20.3 kB  [rendered]
+chunk {28} 28.js, 28.js.map () 4.1 kB  [rendered]
+chunk {29} 29.js, 29.js.map () 15.1 kB  [rendered]
+chunk {30} 30.js, 30.js.map () 15.1 kB  [rendered]
+chunk {31} 31.js, 31.js.map () 15.9 kB  [rendered]
+chunk {32} 32.js, 32.js.map () 15.7 kB  [rendered]
+chunk {33} 33.js, 33.js.map () 31.1 kB  [rendered]
+chunk {34} 34.js, 34.js.map () 30.9 kB  [rendered]
+chunk {35} 35.js, 35.js.map () 42.8 kB  [rendered]
+chunk {36} 36.js, 36.js.map () 46.4 kB  [rendered]
+chunk {37} 37.js, 37.js.map () 14.2 kB  [rendered]
+chunk {38} 38.js, 38.js.map () 13.9 kB  [rendered]
+chunk {39} 39.js, 39.js.map () 40.4 kB  [rendered]
+chunk {40} 40.js, 40.js.map () 40.5 kB  [rendered]
+chunk {41} 41.js, 41.js.map () 16.8 kB  [rendered]
+chunk {42} 42.js, 42.js.map () 16.8 kB  [rendered]
+chunk {43} 43.js, 43.js.map () 45.2 kB  [rendered]
+chunk {44} 44.js, 44.js.map () 22.2 kB  [rendered]
+chunk {45} 45.js, 45.js.map () 21.5 kB  [rendered]
+chunk {46} 46.js, 46.js.map () 12.9 kB  [rendered]
+chunk {47} 47.js, 47.js.map () 12.9 kB  [rendered]
+chunk {48} 48.js, 48.js.map () 15 kB  [rendered]
+chunk {49} 49.js, 49.js.map () 15.2 kB  [rendered]
+chunk {50} 50.js, 50.js.map () 23.6 kB  [rendered]
+chunk {51} 51.js, 51.js.map () 25 kB  [rendered]
+chunk {52} 52.js, 52.js.map () 21.2 kB  [rendered]
+chunk {53} 53.js, 53.js.map () 21.2 kB  [rendered]
+chunk {54} 54.js, 54.js.map () 14.8 kB  [rendered]
+chunk {55} 55.js, 55.js.map () 14.8 kB  [rendered]
+chunk {56} 56.js, 56.js.map () 7.88 kB  [rendered]
+chunk {57} 57.js, 57.js.map () 32.8 kB  [rendered]
+chunk {58} 58.js, 58.js.map () 27.9 kB  [rendered]
+chunk {59} 59.js, 59.js.map () 25.4 kB  [rendered]
+chunk {60} 60.js, 60.js.map () 17.2 kB  [rendered]
+chunk {61} 61.js, 61.js.map () 16.8 kB  [rendered]
+chunk {62} 62.js, 62.js.map () 27 kB  [rendered]
+chunk {63} 63.js, 63.js.map () 27 kB  [rendered]
+chunk {64} 64.js, 64.js.map () 47.2 kB  [rendered]
+chunk {65} 65.js, 65.js.map () 47.2 kB  [rendered]
+chunk {66} 66.js, 66.js.map () 10.9 kB  [rendered]
+chunk {67} 67.js, 67.js.map () 7.74 kB  [rendered]
+chunk {68} 68.js, 68.js.map () 7.74 kB  [rendered]
+chunk {69} 69.js, 69.js.map () 16 kB  [rendered]
+chunk {70} 70.js, 70.js.map () 16.2 kB  [rendered]
+chunk {71} 71.js, 71.js.map () 2.06 kB  [rendered]
+chunk {72} 72.js, 72.js.map () 13.9 kB  [rendered]
+chunk {73} 73.js, 73.js.map () 13.9 kB  [rendered]
+chunk {74} 74.js, 74.js.map () 20.8 kB  [rendered]
+chunk {75} 75.js, 75.js.map () 21.3 kB  [rendered]
+chunk {76} 76.js, 76.js.map () 12.9 kB  [rendered]
+chunk {77} 77.js, 77.js.map () 12.8 kB  [rendered]
+chunk {78} 78.js, 78.js.map () 23.3 kB  [rendered]
+chunk {common} common.js, common.js.map (common) 14.7 kB  [rendered]
+chunk {core-js-js} core-js-js.js, core-js-js.js.map (core-js-js) 78.7 kB  [rendered]
+chunk {css-shim-206ea950-3169f23e-js} css-shim-206ea950-3169f23e-js.js, css-shim-206ea950-3169f23e-js.js.map (css-shim-206ea950-3169f23e-js) 21.9 kB  [rendered]
+chunk {dom-96781eef-a2fb04dd-js} dom-96781eef-a2fb04dd-js.js, dom-96781eef-a2fb04dd-js.js.map (dom-96781eef-a2fb04dd-js) 27.7 kB  [rendered]
+chunk {dom-js} dom-js.js, dom-js.js.map (dom-js) 20.2 kB  [rendered]
+chunk {focus-visible-70713a0c-js} focus-visible-70713a0c-js.js, focus-visible-70713a0c-js.js.map (focus-visible-70713a0c-js) 2.19 kB  [rendered]
+chunk {hardware-back-button-5afe3cb0-js} hardware-back-button-5afe3cb0-js.js, hardware-back-button-5afe3cb0-js.js.map (hardware-back-button-5afe3cb0-js) 2.87 kB  [rendered]
+chunk {home-home-module} home-home-module.js, home-home-module.js.map (home-home-module) 35.5 kB  [rendered]
+chunk {index-69c37885-js} index-69c37885-js.js, index-69c37885-js.js.map (index-69c37885-js) 41.9 kB  [rendered]
+chunk {input-shims-a4fc53ac-js} input-shims-a4fc53ac-js.js, input-shims-a4fc53ac-js.js.map (input-shims-a4fc53ac-js) 13.5 kB  [rendered]
+chunk {ios-transition-504cdd09-js} ios-transition-504cdd09-js.js, ios-transition-504cdd09-js.js.map (ios-transition-504cdd09-js) 26.6 kB  [rendered]
+chunk {main} main.js, main.js.map (main) 82.3 kB [initial] [rendered]
+chunk {md-transition-fea2bbfb-js} md-transition-fea2bbfb-js.js, md-transition-fea2bbfb-js.js.map (md-transition-fea2bbfb-js) 3.91 kB  [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 316 kB [initial] [rendered]
+chunk {polyfills-es5} polyfills-es5.js, polyfills-es5.js.map (polyfills-es5) 716 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 9.77 kB [entry] [rendered]
+chunk {shadow-css-4889ae62-23996f3f-js} shadow-css-4889ae62-23996f3f-js.js, shadow-css-4889ae62-23996f3f-js.js.map (shadow-css-4889ae62-23996f3f-js) 15.7 kB  [rendered]
+chunk {status-tap-32c72c43-js} status-tap-32c72c43-js.js, status-tap-32c72c43-js.js.map (status-tap-32c72c43-js) 1.83 kB  [rendered]
+chunk {styles} styles.js, styles.js.map (styles) 100 kB [initial] [rendered]
+chunk {swipe-back-35ad8e37-js} swipe-back-35ad8e37-js.js, swipe-back-35ad8e37-js.js.map (swipe-back-35ad8e37-js) 2.67 kB  [rendered]
+chunk {swiper-bundle-8bab85e6-js} swiper-bundle-8bab85e6-js.js, swiper-bundle-8bab85e6-js.js.map (swiper-bundle-8bab85e6-js) 213 kB  [rendered]
+chunk {tap-click-ca00ce7f-js} tap-click-ca00ce7f-js.js, tap-click-ca00ce7f-js.js.map (tap-click-ca00ce7f-js) 6.32 kB  [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 4.66 MB [initial] [rendered]
+Date: 2021-02-03T16:50:34.489Z - Hash: a71a84d327a991a41f51 - Time: 9418ms
+Removing intermediate container 01858b8222f1
+ ---> bc9af56376db
+Step 8/10 : ENV PORT=8100
+ ---> Running in 8c3fe0fc4880
+Removing intermediate container 8c3fe0fc4880
+ ---> c9462ba606a1
+Step 9/10 : EXPOSE 8100
+ ---> Running in 2dbf4d3f4eeb
+Removing intermediate container 2dbf4d3f4eeb
+ ---> f00598722a0e
+Step 10/10 : CMD ["ionic", "serve"]
+ ---> Running in e9316fc981c5
+Removing intermediate container e9316fc981c5
+ ---> 54674739984d
+Successfully built 54674739984d
+Successfully tagged udagram-frontend:latest
+travis_time:end:0e1615d0:start=1612370959174447586,finish=1612371035715650966,duration=76541203380,event=script
+[0K[32;1mThe command "docker build -t udagram-frontend ./udagram-frontend" exited with 0.[0m
+travis_time:start:126b93d0
+[0K$ docker tag udagram-frontend benjdaun3k900/udagram-frontend:latest
+travis_time:end:126b93d0:start=1612371035720020043,finish=1612371035779848785,duration=59828742,event=script
+[0K[32;1mThe command "docker tag udagram-frontend benjdaun3k900/udagram-frontend:latest" exited with 0.[0m
+travis_fold:start:cache.2
+[0Kstore build cache
+travis_time:start:05f63d94
+[0Ktravis_time:end:05f63d94:start=1612371035784327507,finish=1612371035786991385,duration=2663878,event=cache
+[0Ktravis_time:start:00a2e12d
+[0K[32;1mchanges detected, packing new archive[0m
+[32;1muploading main/cache--linux-xenial-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855--node-12.tgz[0m
+[32;1mcache uploaded[0m
+travis_time:end:00a2e12d:start=1612371035790592885,finish=1612371036836486602,duration=1045893717,event=cache
+[0Ktravis_fold:end:cache.2
+[0K
+travis_fold:start:after_success.1
+[0Ktravis_time:start:16eda3e8
+[0K$ echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
+Must provide --username with --password-stdin
+travis_time:end:16eda3e8:start=1612371036841048240,finish=1612371036898866625,duration=57818385,event=after_success
+[0Ktravis_fold:end:after_success.1
+[0Ktravis_fold:start:after_success.2
+[0Ktravis_time:start:31631226
+[0K$ docker push benjdaun3k900/udagram-proxy
+The push refers to repository [docker.io/benjdaun3k900/udagram-proxy]
+
+[1A[1K[K
+122c74afed72: Preparing 
+[1B
+[1A[1K[K
+3633e038dbe3: Preparing 
+[1B
+[1A[1K[K
+e8f8cd3583be: Preparing 
+[1B
+[1A[1K[K
+0614f8d14b89: Preparing 
+[1B
+[1A[1K[K
+029c325415ee: Preparing 
+[1B
+[1A[1K[K
+777b2c648970: Preparing 
+[1B[1A[1K[K
+777b2c648970: Waiting 
+[1Bdenied: requested access to the resource is denied
+travis_time:end:31631226:start=1612371036902805197,finish=1612371037441410114,duration=538604917,event=after_success
+[0Ktravis_fold:end:after_success.2
+[0Ktravis_fold:start:after_success.3
+[0Ktravis_time:start:15ce3ba1
+[0K$ docker push benjdaun3k900/udagram-api-feed
+The push refers to repository [docker.io/benjdaun3k900/udagram-api-feed]
+
+[1A[1K[K
+7b8e82199441: Preparing 
+[1B
+[1A[1K[K
+f7e6e95294fd: Preparing 
+[1B
+[1A[1K[K
+8f73d0baec10: Preparing 
+[1B
+[1A[1K[K
+9688881e20be: Preparing 
+[1B
+[1A[1K[K
+ac0af361a0fe: Preparing 
+[1B
+[1A[1K[K
+263a32264489: Preparing 
+[1B
+[1A[1K[K
+5c78dddf4a6d: Preparing 
+[1B
+[1A[1K[K
+5a5c0a2eda05: Preparing 
+[1B
+[1A[1K[K
+75298d0cbb21: Preparing 
+[1B
+[1A[1K[K
+8f82110acbe4: Preparing 
+[1B
+[1A[1K[K
+0a1c0b220d6e: Preparing 
+[1B
+[1A[1K[K
+de1bb73bcb8b: Preparing 
+[1B
+[1A[1K[K
+0279b13c6fc6: Preparing 
+[1B[9A[1K[K
+ac0af361a0fe: Waiting 
+[9B[8A[1K[K
+263a32264489: Waiting 
+[8B[7A[1K[K
+5c78dddf4a6d: Waiting 
+[7B[6A[1K[K
+5a5c0a2eda05: Waiting 
+[6B[5A[1K[K
+75298d0cbb21: Waiting 
+[5B[4A[1K[K
+8f82110acbe4: Waiting 
+[4B[3A[1K[K
+0a1c0b220d6e: Waiting 
+[3B[2A[1K[K
+de1bb73bcb8b: Waiting 
+[2B[1A[1K[K
+0279b13c6fc6: Waiting 
+[1Bdenied: requested access to the resource is denied
+travis_time:end:15ce3ba1:start=1612371037446095404,finish=1612371037897322675,duration=451227271,event=after_success
+[0Ktravis_fold:end:after_success.3
+[0Ktravis_fold:start:after_success.4
+[0Ktravis_time:start:0f366478
+[0K$ docker push benjdaun3k900/udagram-api-users
+The push refers to repository [docker.io/benjdaun3k900/udagram-api-users]
+
+[1A[1K[K
+990a61ba8293: Preparing 
+[1B
+[1A[1K[K
+f7e6e95294fd: Preparing 
+[1B
+[1A[1K[K
+8f73d0baec10: Preparing 
+[1B
+[1A[1K[K
+9688881e20be: Preparing 
+[1B
+[1A[1K[K
+ac0af361a0fe: Preparing 
+[1B
+[1A[1K[K
+263a32264489: Preparing 
+[1B
+[1A[1K[K
+5c78dddf4a6d: Preparing 
+[1B
+[1A[1K[K
+5a5c0a2eda05: Preparing 
+[1B
+[1A[1K[K
+75298d0cbb21: Preparing 
+[1B
+[1A[1K[K
+8f82110acbe4: Preparing 
+[1B
+[1A[1K[K
+0a1c0b220d6e: Preparing 
+[1B
+[1A[1K[K
+de1bb73bcb8b: Preparing 
+[1B
+[1A[1K[K
+0279b13c6fc6: Preparing 
+[1B[13A[1K[K
+990a61ba8293: Waiting 
+[13B[12A[1K[K
+f7e6e95294fd: Waiting 
+[12B[11A[1K[K
+8f73d0baec10: Waiting 
+[11B[10A[1K[K
+9688881e20be: Waiting 
+[10B[9A[1K[K
+ac0af361a0fe: Waiting 
+[9B[8A[1K[K
+263a32264489: Waiting 
+[8B[7A[1K[K
+5c78dddf4a6d: Waiting 
+[7B[6A[1K[K
+5a5c0a2eda05: Waiting 
+[6B[5A[1K[K
+75298d0cbb21: Waiting 
+[5B[4A[1K[K
+8f82110acbe4: Waiting 
+[4B[3A[1K[K
+0a1c0b220d6e: Waiting 
+[3B[2A[1K[K
+de1bb73bcb8b: Waiting 
+[2B[1A[1K[K
+0279b13c6fc6: Waiting 
+[1Bdenied: requested access to the resource is denied
+travis_time:end:0f366478:start=1612371037901714582,finish=1612371038405062039,duration=503347457,event=after_success
+[0Ktravis_fold:end:after_success.4
+[0Ktravis_fold:start:after_success.5
+[0Ktravis_time:start:19cf9420
+[0K$ docker push benjdaun3k900/udagram-frontend
+The push refers to repository [docker.io/benjdaun3k900/udagram-frontend]
+
+[1A[1K[K
+fb0896764a7a: Preparing 
+[1B
+[1A[1K[K
+f8cb66236702: Preparing 
+[1B
+[1A[1K[K
+8edbd1f33a0c: Preparing 
+[1B
+[1A[1K[K
+a33a7e9c20f7: Preparing 
+[1B
+[1A[1K[K
+e15c9925a198: Preparing 
+[1B
+[1A[1K[K
+bb0c3ccb87a9: Preparing 
+[1B
+[1A[1K[K
+ac0af361a0fe: Preparing 
+[1B
+[1A[1K[K
+263a32264489: Preparing 
+[1B
+[1A[1K[K
+5c78dddf4a6d: Preparing 
+[1B
+[1A[1K[K
+5a5c0a2eda05: Preparing 
+[1B
+[1A[1K[K
+75298d0cbb21: Preparing 
+[1B
+[1A[1K[K
+8f82110acbe4: Preparing 
+[1B
+[1A[1K[K
+0a1c0b220d6e: Preparing 
+[1B
+[1A[1K[K
+de1bb73bcb8b: Preparing 
+[1B
+[1A[1K[K
+0279b13c6fc6: Preparing 
+[1B[15A[1K[K
+fb0896764a7a: Waiting 
+[15B[14A[1K[K
+f8cb66236702: Waiting 
+[14B[13A[1K[K
+8edbd1f33a0c: Waiting 
+[13B[12A[1K[K
+a33a7e9c20f7: Waiting 
+[12B[11A[1K[K
+e15c9925a198: Waiting 
+[11B[10A[1K[K
+bb0c3ccb87a9: Waiting 
+[10B[9A[1K[K
+ac0af361a0fe: Waiting 
+[9B[8A[1K[K
+263a32264489: Waiting 
+[8B[7A[1K[K
+5c78dddf4a6d: Waiting 
+[7B[6A[1K[K
+5a5c0a2eda05: Waiting 
+[6B[5A[1K[K
+75298d0cbb21: Waiting 
+[5B[4A[1K[K
+8f82110acbe4: Waiting 
+[4B[3A[1K[K
+0a1c0b220d6e: Waiting 
+[3B[2A[1K[K
+de1bb73bcb8b: Waiting 
+[2B[1A[1K[K
+0279b13c6fc6: Waiting 
+[1Bdenied: requested access to the resource is denied
+travis_time:end:19cf9420:start=1612371038409914012,finish=1612371039036899776,duration=626985764,event=after_success
+[0Ktravis_fold:end:after_success.5
+[0K
+Done. Your build exited with 0.

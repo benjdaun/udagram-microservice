@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    service: udagram-backend-feed
+  name: udagram-backend-feed
+spec:
+  # 1 Pod should exist at all times.
+  replicas: 1
+  selector:
+    matchLabels:
+      app: udagram-backend-feed
+  template:
+    metadata:
+      labels:
+        service: udagram-backend-feed
+        app: udagram-backend-feed
+    spec:
+      containers:
+      - name: udagram-backend-feed
+        # Run this image
+        image: benjdaun3k900/udagram-api-feed
+        imagePullPolicy: Always
+        envFrom:
+        - secretRef:
+            name: env-secret

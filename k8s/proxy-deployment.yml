@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    service: udagram-proxy
+  name: udagram-proxy
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: udagram-proxy
+  template:
+    metadata:
+      labels:
+        service: udagram-proxy
+        app: udagram-proxy
+    spec:
+      containers:
+      - name: udagram-proxy
+        # Run this image
+        image: benjdaun3k900/udagram-proxy
+        imagePullPolicy: Always
+        ports:
+          - containerPort: 8080
+        envFrom:
+        - secretRef:
+            name: env-secret
